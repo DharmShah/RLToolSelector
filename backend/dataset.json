@@ -1,0 +1,8477 @@
+[
+  {
+    "id": 1,
+    "query": "Can you clarify what you mean?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 2,
+    "query": "What changed recently in renewable energy?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "query": "What changed recently in electric vehicles?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "query": "Can you look up the current information on OpenAI?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 5,
+    "query": "I need more context to answer that.",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 6,
+    "query": "Compare REST APIs and GraphQL.",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "query": "What are the newest updates regarding OpenAI?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 8,
+    "query": "What is 4425 plus 592?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 9,
+    "query": "What changed recently in AI agents?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 10,
+    "query": "What are the advantages and disadvantages of prompt engineering?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 11,
+    "query": "Calculate 66665 / 995.",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 12,
+    "query": "What is the latest information about AI agents?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 13,
+    "query": "What is the latest information about AI agents?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 14,
+    "query": "Can you specify the item you are asking about?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 15,
+    "query": "What is the current status of Python?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 16,
+    "query": "What is 5010 minus 842?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 17,
+    "query": "Which one are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 18,
+    "query": "What is the latest information about AI agents?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 19,
+    "query": "What are the current developments in India's technology industry?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 20,
+    "query": "What exactly would you like me to compare?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 21,
+    "query": "Find the result of 9564 - 148.",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 22,
+    "query": "What exactly would you like me to compare?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 23,
+    "query": "Why is attention mechanisms important?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 24,
+    "query": "Can you work out 1781 + 594?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 25,
+    "query": "What exactly would you like me to compare?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 26,
+    "query": "Can you clarify your request?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 27,
+    "query": "Find the latest news about NVIDIA.",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 28,
+    "query": "Find the latest news about OpenAI.",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 29,
+    "query": "Which option do you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 30,
+    "query": "What is the current status of large language models?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 31,
+    "query": "Calculate 2427 + 673.",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 32,
+    "query": "How does deep learning work?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 33,
+    "query": "Find the latest news about space exploration.",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 34,
+    "query": "Give me a beginner-friendly explanation of RAG.",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 35,
+    "query": "I need more context to answer that.",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 36,
+    "query": "What is the current status of AI agents?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 37,
+    "query": "What is the latest information about robotics?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 38,
+    "query": "What is 4863 multiplied by 234?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 39,
+    "query": "What are the current developments in Google AI?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 40,
+    "query": "Which one are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 41,
+    "query": "Explain attention mechanisms in simple terms.",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 42,
+    "query": "Explain unsupervised learning in simple terms.",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 43,
+    "query": "What is the latest information about cybersecurity?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 44,
+    "query": "Can you give me more information?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 45,
+    "query": "What are the current developments in quantum computing?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 46,
+    "query": "How much is 1690 + 895?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 47,
+    "query": "Could you specify what you want me to find?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 48,
+    "query": "Which product are you talking about?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 49,
+    "query": "Can you clarify what you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 50,
+    "query": "What is LLM agents?",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 51,
+    "query": "What is neural networks?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 52,
+    "query": "Could you specify what you want me to find?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 53,
+    "query": "Can you work out 22678 / 391?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 54,
+    "query": "What are the advantages and disadvantages of LLM agents?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 55,
+    "query": "What are the advantages and disadvantages of LLM agents?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 56,
+    "query": "Which product are you talking about?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 57,
+    "query": "What are the current developments in cybersecurity?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 58,
+    "query": "Find the result of 3453 * 442.",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 59,
+    "query": "Compare embeddings and tokenization.",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 60,
+    "query": "Could you specify what you want me to find?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 61,
+    "query": "Explain prompt engineering in simple terms.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 62,
+    "query": "How much is 2604 + 320?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 63,
+    "query": "What is the current status of Python?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 64,
+    "query": "Can you work out 5198 / 113?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 65,
+    "query": "Explain RAG in simple terms.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 66,
+    "query": "How does fine-tuning work?",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 67,
+    "query": "What is the latest information about robotics?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 68,
+    "query": "Find the result of 7689 * 707.",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 69,
+    "query": "Summarize the concept of machine learning.",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 70,
+    "query": "What is the current status of large language models?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 71,
+    "query": "Find the latest news about cloud computing.",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 72,
+    "query": "Can you clarify what you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 73,
+    "query": "How much is 5013 + 584?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 74,
+    "query": "Compare CNNs and transformers.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 75,
+    "query": "Find the result of 7721 - 229.",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 76,
+    "query": "Compare supervised learning and reinforcement learning.",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 77,
+    "query": "What is 6975 minus 119?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 78,
+    "query": "What are the current developments in artificial intelligence?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 79,
+    "query": "Calculate 6081 * 72.",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 80,
+    "query": "What is the current status of artificial intelligence?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 81,
+    "query": "What do you mean by that?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 82,
+    "query": "Can you look up the current information on AI agents?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 83,
+    "query": "Can you specify the item you are asking about?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 84,
+    "query": "Find the result of 7794 + 627.",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 85,
+    "query": "Can you specify the item you are asking about?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 86,
+    "query": "What is the current status of electric vehicles?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 87,
+    "query": "Who are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 88,
+    "query": "Find the latest news about Google AI.",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 89,
+    "query": "Can you work out 30576 / 336?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 90,
+    "query": "Who are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 91,
+    "query": "Can you tell me which person you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 92,
+    "query": "Why is neural networks important?",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 93,
+    "query": "Can you look up the current information on cloud computing?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 94,
+    "query": "Why is transformers important?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 95,
+    "query": "What do you mean by that?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 96,
+    "query": "What is 2340 plus 75?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 97,
+    "query": "I need more context to answer that.",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 98,
+    "query": "What is the current status of India's technology industry?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 99,
+    "query": "What is the current status of cloud computing?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 100,
+    "query": "Can you tell me which person you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 101,
+    "query": "Which option do you mean?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 102,
+    "query": "Can you look up the current information on cloud computing?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 103,
+    "query": "Give me a beginner-friendly explanation of fine-tuning.",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 104,
+    "query": "Can you work out 4781 - 35?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 105,
+    "query": "How much is 236 / 4?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 106,
+    "query": "Could you provide the missing details?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 107,
+    "query": "What happened recently in robotics?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 108,
+    "query": "Why is MLOps important?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 109,
+    "query": "What is neural networks?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 110,
+    "query": "What exactly would you like me to compare?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 111,
+    "query": "What is the latest information about Google AI?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 112,
+    "query": "What happened recently in renewable energy?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 113,
+    "query": "How does MLOps work?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 114,
+    "query": "Why is generative AI important?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 115,
+    "query": "Can you tell me which person you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 116,
+    "query": "Why is unsupervised learning important?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 117,
+    "query": "Find the result of 6822 - 65.",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 118,
+    "query": "Summarize the concept of MLOps.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 119,
+    "query": "How does transformers work?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 120,
+    "query": "Can you work out 6663 + 563?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 121,
+    "query": "Can you specify the item you are asking about?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 122,
+    "query": "What is 18648 divided by 252?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 123,
+    "query": "Give me a beginner-friendly explanation of LLM agents.",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 124,
+    "query": "Summarize the concept of attention mechanisms.",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 125,
+    "query": "Can you work out 21114 / 459?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 126,
+    "query": "What is 5512 plus 329?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 127,
+    "query": "Summarize the concept of fine-tuning.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 128,
+    "query": "Find the latest news about renewable energy.",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 129,
+    "query": "What is the current status of Microsoft AI?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 130,
+    "query": "How much is 1351 + 483?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 131,
+    "query": "What changed recently in Microsoft AI?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 132,
+    "query": "Could you specify what you want me to find?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 133,
+    "query": "What do you mean by that?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 134,
+    "query": "Can you clarify your request?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 135,
+    "query": "Which product are you talking about?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 136,
+    "query": "I need more context to answer that.",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 137,
+    "query": "Can you give me more information?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 138,
+    "query": "How much is 12558 / 897?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 139,
+    "query": "What is the latest information about Google AI?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 140,
+    "query": "Explain MLOps in simple terms.",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 141,
+    "query": "What are the newest updates regarding Microsoft AI?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 142,
+    "query": "Find the result of 9942 + 525.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 143,
+    "query": "What are the newest updates regarding cloud computing?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 144,
+    "query": "Which product are you talking about?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 145,
+    "query": "Why is fine-tuning important?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 146,
+    "query": "Can you work out 929 * 302?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 147,
+    "query": "Could you provide the missing details?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 148,
+    "query": "What are the advantages and disadvantages of transformers?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 149,
+    "query": "What happened recently in India's technology industry?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 150,
+    "query": "What happened recently in large language models?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 151,
+    "query": "What are the advantages and disadvantages of fine-tuning?",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 152,
+    "query": "What is the current status of robotics?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 153,
+    "query": "How does prompt engineering work?",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 154,
+    "query": "Calculate 6508 - 966.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 155,
+    "query": "Can you look up the current information on India's technology industry?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 156,
+    "query": "What are the advantages and disadvantages of prompt engineering?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 157,
+    "query": "Can you give me more information?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 158,
+    "query": "Which option do you mean?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 159,
+    "query": "What is the latest information about electric vehicles?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 160,
+    "query": "Can you clarify your request?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 161,
+    "query": "Can you clarify your request?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 162,
+    "query": "What are the advantages and disadvantages of MLOps?",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 163,
+    "query": "Can you tell me which person you mean?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 164,
+    "query": "What is LLMOps?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 165,
+    "query": "Can you work out 7626 * 448?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 166,
+    "query": "What happened recently in Microsoft AI?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 167,
+    "query": "Which one are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 168,
+    "query": "How much is 45267 / 573?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 169,
+    "query": "Give me a beginner-friendly explanation of embeddings.",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 170,
+    "query": "What are the advantages and disadvantages of MLOps?",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 171,
+    "query": "What is 53072 divided by 856?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 172,
+    "query": "Summarize the concept of fine-tuning.",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 173,
+    "query": "What is the current status of Python?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 174,
+    "query": "What are the advantages and disadvantages of reinforcement learning?",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 175,
+    "query": "What does 'it' refer to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 176,
+    "query": "Calculate 5743 + 231.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 177,
+    "query": "What are the current developments in robotics?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 178,
+    "query": "Can you clarify what you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 179,
+    "query": "What is 903 multiplied by 568?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 180,
+    "query": "What are the newest updates regarding robotics?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 181,
+    "query": "Can you give me more information?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 182,
+    "query": "Can you look up the current information on Microsoft AI?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 183,
+    "query": "I need more context to answer that.",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 184,
+    "query": "Find the result of 13065 / 201.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 185,
+    "query": "What is the latest information about renewable energy?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 186,
+    "query": "What does 'it' refer to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 187,
+    "query": "What do you mean by that?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 188,
+    "query": "Find the result of 2240 / 448.",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 189,
+    "query": "Calculate 11397 / 131.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 190,
+    "query": "Can you work out 241 - 727?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 191,
+    "query": "Compare RAG and fine-tuning.",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 192,
+    "query": "Can you specify the item you are asking about?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 193,
+    "query": "Explain fine-tuning in simple terms.",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 194,
+    "query": "Which option do you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 195,
+    "query": "How much is 1325 * 874?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 196,
+    "query": "How does reinforcement learning work?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 197,
+    "query": "What happened recently in Google AI?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 198,
+    "query": "Give me a beginner-friendly explanation of prompt engineering.",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 199,
+    "query": "Can you work out 7824 * 8?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 200,
+    "query": "Can you specify the item you are asking about?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 201,
+    "query": "Explain attention mechanisms in simple terms.",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 202,
+    "query": "Which one are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 203,
+    "query": "What are the advantages and disadvantages of vector databases?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 204,
+    "query": "What is LLMOps?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 205,
+    "query": "Find the result of 12540 / 660.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 206,
+    "query": "What are the current developments in AI agents?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 207,
+    "query": "Compare SQL and NoSQL.",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 208,
+    "query": "What changed recently in NVIDIA?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 209,
+    "query": "What is the current status of OpenAI?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 210,
+    "query": "Why is attention mechanisms important?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 211,
+    "query": "Find the result of 9378 - 394.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 212,
+    "query": "Can you look up the current information on robotics?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 213,
+    "query": "Can you work out 3485 * 365?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 214,
+    "query": "Can you look up the current information on electric vehicles?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 215,
+    "query": "Find the latest news about India's technology industry.",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 216,
+    "query": "How does RAG work?",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 217,
+    "query": "What is the latest information about AI agents?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 218,
+    "query": "Compare MLOps and LLMOps.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 219,
+    "query": "Find the result of 70288 / 764.",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 220,
+    "query": "What happened recently in Google AI?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 221,
+    "query": "How much is 52 * 291?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 222,
+    "query": "What are the current developments in electric vehicles?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 223,
+    "query": "Explain prompt engineering in simple terms.",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 224,
+    "query": "How much is 31768 / 361?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 225,
+    "query": "Can you clarify what you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 226,
+    "query": "Summarize the concept of transformers.",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 227,
+    "query": "What is 6642 divided by 82?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 228,
+    "query": "What happened recently in artificial intelligence?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 229,
+    "query": "Explain fine-tuning in simple terms.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 230,
+    "query": "What are the advantages and disadvantages of attention mechanisms?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 231,
+    "query": "Can you work out 1540 - 840?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 232,
+    "query": "Which option do you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 233,
+    "query": "Calculate 32132 / 554.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 234,
+    "query": "What is unsupervised learning?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 235,
+    "query": "What is 3856 multiplied by 648?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 236,
+    "query": "What exactly would you like me to compare?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 237,
+    "query": "How much is 94 / 47?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 238,
+    "query": "Can you work out 9282 + 803?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 239,
+    "query": "What are the newest updates regarding cloud computing?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 240,
+    "query": "What happened recently in India's technology industry?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 241,
+    "query": "Find the result of 7120 + 102.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 242,
+    "query": "Who are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 243,
+    "query": "What is machine learning?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 244,
+    "query": "Can you tell me which person you mean?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 245,
+    "query": "Which one are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 246,
+    "query": "Which one are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 247,
+    "query": "Find the result of 9759 * 768.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 248,
+    "query": "What are the current developments in robotics?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 249,
+    "query": "What is neural networks?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 250,
+    "query": "What happened recently in Microsoft AI?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 251,
+    "query": "What are the advantages and disadvantages of embeddings?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 252,
+    "query": "Could you provide the missing details?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 253,
+    "query": "Give me a beginner-friendly explanation of deep learning.",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 254,
+    "query": "Calculate 8474 - 972.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 255,
+    "query": "Can you look up the current information on electric vehicles?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 256,
+    "query": "Can you give me more information?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 257,
+    "query": "What is generative AI?",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 258,
+    "query": "Who are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 259,
+    "query": "Can you look up the current information on India's technology industry?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 260,
+    "query": "Find the result of 261 - 741.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 261,
+    "query": "What are the advantages and disadvantages of transformers?",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 262,
+    "query": "Can you specify the item you are asking about?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 263,
+    "query": "What are the advantages and disadvantages of vector databases?",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 264,
+    "query": "Why is fine-tuning important?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 265,
+    "query": "Can you give me more information?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 266,
+    "query": "What are the newest updates regarding Python?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 267,
+    "query": "What is vector databases?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 268,
+    "query": "Compare SQL and NoSQL.",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 269,
+    "query": "What happened recently in large language models?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 270,
+    "query": "Explain neural networks in simple terms.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 271,
+    "query": "Could you provide the missing details?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 272,
+    "query": "Can you clarify your request?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 273,
+    "query": "What is the latest information about NVIDIA?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 274,
+    "query": "What is 3798 minus 394?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 275,
+    "query": "Find the result of 45288 / 629.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 276,
+    "query": "What are the newest updates regarding cybersecurity?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 277,
+    "query": "How much is 7145 * 182?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 278,
+    "query": "What is 11524 divided by 268?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 279,
+    "query": "What are the current developments in electric vehicles?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 280,
+    "query": "Could you specify what you want me to find?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 281,
+    "query": "What are the current developments in NVIDIA?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 282,
+    "query": "How much is 12780 / 284?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 283,
+    "query": "What are the current developments in quantum computing?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 284,
+    "query": "Who are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 285,
+    "query": "What does 'it' refer to?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 286,
+    "query": "Could you provide the missing details?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 287,
+    "query": "Explain LLMOps in simple terms.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 288,
+    "query": "Could you provide the missing details?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 289,
+    "query": "What are the newest updates regarding Microsoft AI?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 290,
+    "query": "What are the advantages and disadvantages of unsupervised learning?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 291,
+    "query": "Can you work out 5977 + 443?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 292,
+    "query": "How much is 2051 * 739?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 293,
+    "query": "What is the current status of artificial intelligence?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 294,
+    "query": "What are the advantages and disadvantages of unsupervised learning?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 295,
+    "query": "Which product are you talking about?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 296,
+    "query": "Why is attention mechanisms important?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 297,
+    "query": "Can you specify the item you are asking about?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 298,
+    "query": "What are the advantages and disadvantages of fine-tuning?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 299,
+    "query": "Can you look up the current information on robotics?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 300,
+    "query": "What is the current status of AI agents?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 301,
+    "query": "Can you work out 3174 * 410?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 302,
+    "query": "Calculate 3272 + 152.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 303,
+    "query": "Find the result of 6634 - 743.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 304,
+    "query": "Can you give me more information?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 305,
+    "query": "What are the advantages and disadvantages of LLM agents?",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 306,
+    "query": "Summarize the concept of prompt engineering.",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 307,
+    "query": "What is the latest information about robotics?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 308,
+    "query": "What is deep learning?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 309,
+    "query": "What is the latest information about robotics?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 310,
+    "query": "Give me a beginner-friendly explanation of MLOps.",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 311,
+    "query": "What is 8789 minus 975?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 312,
+    "query": "Can you work out 3787 - 125?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 313,
+    "query": "How much is 3900 / 150?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 314,
+    "query": "What happened recently in India's technology industry?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 315,
+    "query": "How does supervised learning work?",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 316,
+    "query": "What are the current developments in large language models?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 317,
+    "query": "How does attention mechanisms work?",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 318,
+    "query": "What is 22140 divided by 492?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 319,
+    "query": "Calculate 7352 + 813.",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 320,
+    "query": "Find the result of 7763 * 568.",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 321,
+    "query": "What happened recently in NVIDIA?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 322,
+    "query": "Which product are you talking about?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 323,
+    "query": "Can you look up the current information on OpenAI?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 324,
+    "query": "What is the current status of electric vehicles?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 325,
+    "query": "Can you work out 4385 - 564?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 326,
+    "query": "What do you mean by that?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 327,
+    "query": "Could you provide the missing details?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 328,
+    "query": "What changed recently in OpenAI?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 329,
+    "query": "What is the latest information about quantum computing?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 330,
+    "query": "Give me a beginner-friendly explanation of attention mechanisms.",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 331,
+    "query": "Can you work out 3640 - 416?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 332,
+    "query": "Can you work out 7448 - 74?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 333,
+    "query": "Give me a beginner-friendly explanation of MLOps.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 334,
+    "query": "Can you look up the current information on Microsoft AI?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 335,
+    "query": "Can you look up the current information on quantum computing?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 336,
+    "query": "Can you tell me which person you mean?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 337,
+    "query": "Can you work out 2790 + 676?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 338,
+    "query": "How much is 6780 - 57?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 339,
+    "query": "Can you clarify your request?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 340,
+    "query": "Which one are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 341,
+    "query": "What exactly would you like me to compare?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 342,
+    "query": "Explain MCP in simple terms.",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 343,
+    "query": "Find the result of 9471 / 287.",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 344,
+    "query": "Find the result of 1537 + 232.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 345,
+    "query": "What is the latest information about Python?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 346,
+    "query": "Calculate 6700 * 343.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 347,
+    "query": "Give me a beginner-friendly explanation of supervised learning.",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 348,
+    "query": "How much is 2532 * 512?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 349,
+    "query": "How much is 9579 + 970?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 350,
+    "query": "What is 1279 multiplied by 732?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 351,
+    "query": "Compare MLOps and LLMOps.",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 352,
+    "query": "How much is 4061 + 206?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 353,
+    "query": "Compare SQL and NoSQL.",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 354,
+    "query": "What happened recently in cloud computing?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 355,
+    "query": "Find the result of 12839 / 347.",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 356,
+    "query": "Can you clarify your request?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 357,
+    "query": "Can you clarify what you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 358,
+    "query": "What changed recently in Microsoft AI?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 359,
+    "query": "Compare RAG and fine-tuning.",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 360,
+    "query": "Can you work out 7461 * 92?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 361,
+    "query": "Find the latest news about Python.",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 362,
+    "query": "Find the result of 8066 + 994.",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 363,
+    "query": "Can you look up the current information on artificial intelligence?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 364,
+    "query": "What is 38016 divided by 432?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 365,
+    "query": "Explain deep learning in simple terms.",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 366,
+    "query": "Could you provide the missing details?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 367,
+    "query": "Give me a beginner-friendly explanation of supervised learning.",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 368,
+    "query": "Why is MCP important?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 369,
+    "query": "How does attention mechanisms work?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 370,
+    "query": "What do you mean by that?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 371,
+    "query": "I need more context to answer that.",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 372,
+    "query": "Calculate 15440 / 965.",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 373,
+    "query": "How much is 7951 + 126?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 374,
+    "query": "How much is 2583 - 247?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 375,
+    "query": "Calculate 63558 / 642.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 376,
+    "query": "Can you work out 25956 / 721?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 377,
+    "query": "What is the current status of Microsoft AI?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 378,
+    "query": "How much is 7254 - 693?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 379,
+    "query": "Can you work out 7629 * 718?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 380,
+    "query": "What are the advantages and disadvantages of transformers?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 381,
+    "query": "Could you provide the missing details?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 382,
+    "query": "Who are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 383,
+    "query": "How much is 1456 / 182?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 384,
+    "query": "What are the current developments in AI agents?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 385,
+    "query": "What is fine-tuning?",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 386,
+    "query": "What exactly would you like me to compare?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 387,
+    "query": "What do you mean by that?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 388,
+    "query": "Which product are you talking about?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 389,
+    "query": "Calculate 45653 / 643.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 390,
+    "query": "Can you give me more information?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 391,
+    "query": "Can you work out 3414 - 642?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 392,
+    "query": "I need more context to answer that.",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 393,
+    "query": "Find the result of 6875 - 553.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 394,
+    "query": "How much is 2233 / 29?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 395,
+    "query": "What changed recently in OpenAI?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 396,
+    "query": "What is the latest information about electric vehicles?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 397,
+    "query": "Can you tell me which person you mean?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 398,
+    "query": "What are the current developments in cloud computing?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 399,
+    "query": "Can you work out 8550 - 498?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 400,
+    "query": "What is the current status of robotics?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 401,
+    "query": "Which product are you talking about?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 402,
+    "query": "Can you give me more information?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 403,
+    "query": "Summarize the concept of MLOps.",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 404,
+    "query": "What exactly would you like me to compare?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 405,
+    "query": "What are the newest updates regarding space exploration?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 406,
+    "query": "What changed recently in Google AI?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 407,
+    "query": "What do you mean by that?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 408,
+    "query": "Calculate 4916 + 927.",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 409,
+    "query": "Summarize the concept of MLOps.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 410,
+    "query": "What is 2502 plus 509?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 411,
+    "query": "Give me a beginner-friendly explanation of generative AI.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 412,
+    "query": "Can you specify the item you are asking about?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 413,
+    "query": "What are the current developments in Google AI?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 414,
+    "query": "What are the advantages and disadvantages of attention mechanisms?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 415,
+    "query": "How much is 1679 * 715?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 416,
+    "query": "Give me a beginner-friendly explanation of neural networks.",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 417,
+    "query": "Who are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 418,
+    "query": "Can you specify the item you are asking about?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 419,
+    "query": "What are the newest updates regarding cybersecurity?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 420,
+    "query": "What is 9936 plus 623?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 421,
+    "query": "I need more context to answer that.",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 422,
+    "query": "Can you specify the item you are asking about?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 423,
+    "query": "Give me a beginner-friendly explanation of reinforcement learning.",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 424,
+    "query": "What do you mean by that?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 425,
+    "query": "Can you look up the current information on NVIDIA?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 426,
+    "query": "What are the advantages and disadvantages of generative AI?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 427,
+    "query": "What are the advantages and disadvantages of MLOps?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 428,
+    "query": "What do you mean by that?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 429,
+    "query": "Can you clarify what you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 430,
+    "query": "Find the result of 5280 / 110.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 431,
+    "query": "Which one are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 432,
+    "query": "Could you specify what you want me to find?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 433,
+    "query": "How much is 9777 * 720?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 434,
+    "query": "What exactly would you like me to compare?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 435,
+    "query": "What does 'it' refer to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 436,
+    "query": "What is 462 multiplied by 120?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 437,
+    "query": "Calculate 7943 * 285.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 438,
+    "query": "What is 8066 plus 77?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 439,
+    "query": "Give me a beginner-friendly explanation of MLOps.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 440,
+    "query": "Find the latest news about AI agents.",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 441,
+    "query": "Can you work out 1235 * 482?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 442,
+    "query": "Calculate 9231 * 973.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 443,
+    "query": "What changed recently in robotics?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 444,
+    "query": "Why is RAG important?",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 445,
+    "query": "What exactly would you like me to compare?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 446,
+    "query": "What exactly would you like me to compare?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 447,
+    "query": "How does attention mechanisms work?",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 448,
+    "query": "How does deep learning work?",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 449,
+    "query": "What are the advantages and disadvantages of supervised learning?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 450,
+    "query": "What happened recently in renewable energy?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 451,
+    "query": "Find the result of 6668 - 502.",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 452,
+    "query": "Give me a beginner-friendly explanation of LLM agents.",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 453,
+    "query": "Find the latest news about NVIDIA.",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 454,
+    "query": "What is attention mechanisms?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 455,
+    "query": "Summarize the concept of vector databases.",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 456,
+    "query": "Find the latest news about space exploration.",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 457,
+    "query": "How much is 7088 * 754?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 458,
+    "query": "Summarize the concept of vector databases.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 459,
+    "query": "Can you clarify your request?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 460,
+    "query": "What is 1333 divided by 31?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 461,
+    "query": "Compare SQL and NoSQL.",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 462,
+    "query": "What are the current developments in artificial intelligence?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 463,
+    "query": "Find the result of 16074 / 423.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 464,
+    "query": "What is 7787 multiplied by 462?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 465,
+    "query": "Can you look up the current information on cloud computing?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 466,
+    "query": "Why is generative AI important?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 467,
+    "query": "What is the current status of Microsoft AI?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 468,
+    "query": "What are the advantages and disadvantages of RAG?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 469,
+    "query": "Why is transformers important?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 470,
+    "query": "How does transformers work?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 471,
+    "query": "What happened recently in India's technology industry?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 472,
+    "query": "How does unsupervised learning work?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 473,
+    "query": "Explain LLM agents in simple terms.",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 474,
+    "query": "Compare supervised learning and reinforcement learning.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 475,
+    "query": "Which product are you talking about?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 476,
+    "query": "Which one are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 477,
+    "query": "Who are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 478,
+    "query": "Find the latest news about India's technology industry.",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 479,
+    "query": "What is 7470 multiplied by 957?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 480,
+    "query": "Summarize the concept of fine-tuning.",
+    "tool": "llm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 481,
+    "query": "Can you clarify your request?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 482,
+    "query": "Summarize the concept of generative AI.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 483,
+    "query": "How much is 433 - 95?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 484,
+    "query": "What changed recently in India's technology industry?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 485,
+    "query": "Can you look up the current information on quantum computing?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 486,
+    "query": "What is the latest information about Python?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 487,
+    "query": "How much is 6807 * 419?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 488,
+    "query": "What is the latest information about NVIDIA?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 489,
+    "query": "Find the result of 1998 - 469.",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 490,
+    "query": "Which option do you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 491,
+    "query": "What changed recently in space exploration?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 492,
+    "query": "What is 24753 divided by 669?",
+    "tool": "calculator",
+    "difficulty": "medium"
+  },
+  {
+    "id": 493,
+    "query": "Compare AI agents and chatbots.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 494,
+    "query": "What are the advantages and disadvantages of supervised learning?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 495,
+    "query": "How does generative AI work?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 496,
+    "query": "Which one are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "medium"
+  },
+  {
+    "id": 497,
+    "query": "What are the advantages and disadvantages of vector databases?",
+    "tool": "llm",
+    "difficulty": "hard"
+  },
+  {
+    "id": 498,
+    "query": "What are the current developments in large language models?",
+    "tool": "search",
+    "difficulty": "hard"
+  },
+  {
+    "id": 499,
+    "query": "What exactly would you like me to compare?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 500,
+    "query": "What is the latest information about Python?",
+    "tool": "search",
+    "difficulty": "easy"
+  },
+  {
+    "id": 1,
+    "query": "What is the latest AI news?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 2,
+    "query": "What are the newest developments in generative AI?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3,
+    "query": "What is the current price of Bitcoin?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 4,
+    "query": "What is today's USD to INR exchange rate?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 5,
+    "query": "What is the current gold price?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 6,
+    "query": "What happened recently in the technology industry?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 7,
+    "query": "What are the latest updates from OpenAI?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 8,
+    "query": "What are the latest developments from Google AI?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 9,
+    "query": "What is the current NVIDIA stock price?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 10,
+    "query": "What is the latest NVIDIA GPU?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 11,
+    "query": "Who is currently the CEO of OpenAI?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 12,
+    "query": "What are the latest breakthroughs in robotics?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 13,
+    "query": "What is the current weather in Bengaluru?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 14,
+    "query": "What happened in the latest SpaceX launch?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 15,
+    "query": "What are the newest Python releases?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 16,
+    "query": "What is the latest version of React?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 17,
+    "query": "What are the current trends in AI agents?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 18,
+    "query": "What are the latest developments in quantum computing?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 19,
+    "query": "What are today's major technology headlines?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 20,
+    "query": "What are the latest LLM releases?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 21,
+    "query": "What is the current market price of Tesla stock?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 22,
+    "query": "What are the latest cybersecurity threats?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 23,
+    "query": "What is the current population of India?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 24,
+    "query": "What are the latest developments in autonomous vehicles?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 25,
+    "query": "What happened in the latest OpenAI announcement?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 26,
+    "query": "What are the newest open-source language models?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 27,
+    "query": "What is the current price of Ethereum?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 28,
+    "query": "Who currently leads Microsoft?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 29,
+    "query": "What are the latest developments in humanoid robots?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 30,
+    "query": "What are the current cloud computing trends?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 31,
+    "query": "What is today's INR to USD exchange rate?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 32,
+    "query": "What are the latest updates about NVIDIA?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 33,
+    "query": "What is the current price of crude oil?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 34,
+    "query": "What are the latest AI regulations?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 35,
+    "query": "What happened in the latest Apple event?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 36,
+    "query": "What is the current status of the Indian economy?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 37,
+    "query": "What are the newest developments in autonomous driving?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 38,
+    "query": "What are the latest cybersecurity incidents?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 39,
+    "query": "What is the current interest rate in India?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 40,
+    "query": "What are the latest developments in RAG systems?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 41,
+    "query": "What are the newest MCP developments?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 42,
+    "query": "What is the latest news about AI chips?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 43,
+    "query": "What are today's major world events?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 44,
+    "query": "What is the current exchange rate for EUR to INR?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 45,
+    "query": "What are the latest developments in cloud AI?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 46,
+    "query": "What is the current price of silver?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 47,
+    "query": "What happened recently with SpaceX?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 48,
+    "query": "What are the newest AI models available?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 49,
+    "query": "What is the latest news about robotics?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 50,
+    "query": "What are the latest developments in AI safety?",
+    "tool": "search",
+    "difficulty": "medium"
+  },
+  {
+    "id": 51,
+    "query": "Calculate 37 plus 84.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 52,
+    "query": "Calculate 928 minus 417.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 53,
+    "query": "Calculate 63 multiplied by 27.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 54,
+    "query": "Calculate 144 divided by 12.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 55,
+    "query": "What is 18 percent of 7500?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 56,
+    "query": "What is 27 percent of 9200?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 57,
+    "query": "Calculate 125 multiplied by 48.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 58,
+    "query": "What is 9876 divided by 12?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 59,
+    "query": "Calculate 450 plus 875.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 60,
+    "query": "What is 15 percent of 8400?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 61,
+    "query": "Calculate 1234 multiplied by 56.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 62,
+    "query": "What is 7500 minus 2389?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 63,
+    "query": "Calculate 81 divided by 9.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 64,
+    "query": "What is 22 percent of 15000?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 65,
+    "query": "Calculate 345 plus 678.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 66,
+    "query": "Calculate 999 multiplied by 11.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 67,
+    "query": "What is 6400 divided by 16?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 68,
+    "query": "Calculate 17.5 percent of 8400.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 69,
+    "query": "What is 1250 plus 3789?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 70,
+    "query": "Calculate 5025 minus 1876.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 71,
+    "query": "What is 12 percent of 25000?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 72,
+    "query": "Calculate 84 multiplied by 73.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 73,
+    "query": "What is 9600 divided by 24?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 74,
+    "query": "Calculate 27.5 percent of 4000.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 75,
+    "query": "What is 3456 plus 7890?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 76,
+    "query": "Calculate 777 multiplied by 23.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 77,
+    "query": "What is 15000 minus 6842?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 78,
+    "query": "Calculate 225 divided by 15.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 79,
+    "query": "What is 8 percent of 12500?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 80,
+    "query": "Calculate 46 multiplied by 91.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 81,
+    "query": "What is 7200 divided by 18?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 82,
+    "query": "Calculate 875 plus 1299.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 83,
+    "query": "What is 35 percent of 12800?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 84,
+    "query": "Calculate 5432 minus 2198.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 85,
+    "query": "What is 14 percent of 9500?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 86,
+    "query": "Calculate 128 multiplied by 64.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 87,
+    "query": "What is 9999 divided by 9?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 88,
+    "query": "Calculate 2500 plus 4750.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 89,
+    "query": "What is 6.5 percent of 20000?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 90,
+    "query": "Calculate 1024 multiplied by 32.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 91,
+    "query": "What is 18750 minus 6250?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 92,
+    "query": "Calculate 1440 divided by 16.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 93,
+    "query": "What is 23 percent of 6700?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 94,
+    "query": "Calculate 321 plus 654.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 95,
+    "query": "What is 72 multiplied by 45?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 96,
+    "query": "Calculate 8100 divided by 27.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 97,
+    "query": "What is 19 percent of 5400?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 98,
+    "query": "Calculate 6000 minus 2345.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 99,
+    "query": "What is 33 percent of 9000?",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 100,
+    "query": "Calculate 125 multiplied by 96.",
+    "tool": "calculator",
+    "difficulty": "easy"
+  },
+  {
+    "id": 101,
+    "query": "Explain reinforcement learning in simple terms.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 102,
+    "query": "What is retrieval augmented generation?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 103,
+    "query": "Explain how transformers work.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 104,
+    "query": "What is an AI agent?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 105,
+    "query": "Explain the difference between RAG and fine-tuning.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 106,
+    "query": "Why are embeddings useful?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 107,
+    "query": "What is model context protocol?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 108,
+    "query": "Explain attention mechanisms.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 109,
+    "query": "What is prompt engineering?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 110,
+    "query": "Explain generative AI to a beginner.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 111,
+    "query": "What is a vector database?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 112,
+    "query": "Why do LLMs hallucinate?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 113,
+    "query": "Explain supervised learning.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 114,
+    "query": "Explain unsupervised learning.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 115,
+    "query": "What is reinforcement learning used for?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 116,
+    "query": "How does an LLM generate text?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 117,
+    "query": "What is tokenization?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 118,
+    "query": "Explain neural networks simply.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 119,
+    "query": "What is fine-tuning?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 120,
+    "query": "What is zero-shot learning?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 121,
+    "query": "Explain few-shot prompting.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 122,
+    "query": "What is chain-of-thought reasoning?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 123,
+    "query": "Why are transformers better than traditional RNNs?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 124,
+    "query": "Explain the difference between an AI agent and a chatbot.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 125,
+    "query": "What is tool calling in LLMs?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 126,
+    "query": "Explain function calling.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 127,
+    "query": "What is an inference model?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 128,
+    "query": "What is an embedding model?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 129,
+    "query": "Explain semantic search.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 130,
+    "query": "What is vector similarity?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 131,
+    "query": "Explain cosine similarity.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 132,
+    "query": "What is an RL policy?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 133,
+    "query": "What is a reward function?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 134,
+    "query": "Explain the exploration-exploitation tradeoff.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 135,
+    "query": "What is PPO in reinforcement learning?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 136,
+    "query": "What is REINFORCE?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 137,
+    "query": "Explain policy gradients.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 138,
+    "query": "What is supervised fine-tuning?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 139,
+    "query": "What is LLMOps?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 140,
+    "query": "Explain MLOps.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 141,
+    "query": "What is model quantization?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 142,
+    "query": "Explain knowledge distillation.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 143,
+    "query": "What is inference latency?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 144,
+    "query": "Why is token usage important for LLM applications?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 145,
+    "query": "Explain hallucination mitigation.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 146,
+    "query": "What is retrieval augmented generation useful for?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 147,
+    "query": "Explain agentic workflows.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 148,
+    "query": "What is multi-agent AI?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 149,
+    "query": "How does an AI agent decide which tool to use?",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 150,
+    "query": "Explain context windows.",
+    "tool": "llm",
+    "difficulty": "medium"
+  },
+  {
+    "id": 151,
+    "query": "Can you clarify what you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 152,
+    "query": "Which product are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 153,
+    "query": "Which person are you talking about?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 154,
+    "query": "What do you mean by that?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 155,
+    "query": "Can you give me more information?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 156,
+    "query": "Which option should I consider?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 157,
+    "query": "Which one are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 158,
+    "query": "Can you clarify your request?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 159,
+    "query": "What does 'it' refer to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 160,
+    "query": "Who are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 161,
+    "query": "Which model do you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 162,
+    "query": "Which company are you talking about?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 163,
+    "query": "Can you specify which version you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 164,
+    "query": "What exactly would you like me to compare?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 165,
+    "query": "Can you provide more context?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 166,
+    "query": "Which country are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 167,
+    "query": "Which product should I use?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 168,
+    "query": "What time period are you asking about?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 169,
+    "query": "Which dataset do you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 170,
+    "query": "Which AI model are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 171,
+    "query": "Can you specify the person you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 172,
+    "query": "Which application are you talking about?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 173,
+    "query": "What exactly do you want to know?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 174,
+    "query": "Can you tell me which one?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 175,
+    "query": "Which technology do you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 176,
+    "query": "Could you clarify the question?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 177,
+    "query": "What does 'that' mean in your question?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 178,
+    "query": "Which article are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 179,
+    "query": "Which event do you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 180,
+    "query": "Can you specify the location?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 181,
+    "query": "Which price are you asking about?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 182,
+    "query": "What item are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 183,
+    "query": "Which organization do you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 184,
+    "query": "Could you provide the missing details?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 185,
+    "query": "Which year are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 186,
+    "query": "Which programming language do you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 187,
+    "query": "What kind of AI system are you asking about?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 188,
+    "query": "Which tool are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 189,
+    "query": "Which result do you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 190,
+    "query": "Can you explain what you want me to find?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 191,
+    "query": "What exactly should I calculate?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 192,
+    "query": "Which exchange rate do you need?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 193,
+    "query": "Which NVIDIA product are you referring to?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 194,
+    "query": "Which OpenAI model do you mean?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 195,
+    "query": "What do you mean by 'latest'?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 196,
+    "query": "Which market are you talking about?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 197,
+    "query": "Which version should I compare?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 198,
+    "query": "Which company should I use?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 199,
+    "query": "Can you tell me what 'it' is?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+  {
+    "id": 200,
+    "query": "Which one should I choose?",
+    "tool": "ask_user",
+    "difficulty": "hard"
+  },
+{
+    "id": 1,
+    "query": "Find today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 2,
+    "query": "Find the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 3,
+    "query": "Work out 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 4,
+    "query": "Can you tell me what is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 5,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 6,
+    "query": "What is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 7,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 8,
+    "query": "What is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 9,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 10,
+    "query": "What is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 11,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 12,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 13,
+    "query": "What is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 14,
+    "query": "Look up the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 15,
+    "query": "What is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 16,
+    "query": "Calculate 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 17,
+    "query": "What is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 18,
+    "query": "What is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 19,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 20,
+    "query": "What is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 21,
+    "query": "What is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 22,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 23,
+    "query": "Look up the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 24,
+    "query": "Can you tell me what is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 25,
+    "query": "Explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 26,
+    "query": "What is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 27,
+    "query": "What is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 28,
+    "query": "What is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 29,
+    "query": "Can you tell me what is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 30,
+    "query": "Can you tell me what is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 31,
+    "query": "Calculate 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 32,
+    "query": "Please explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 33,
+    "query": "What is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 34,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 35,
+    "query": "Can you tell me what is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 36,
+    "query": "What is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 37,
+    "query": "What is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 38,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 39,
+    "query": "Look up the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 40,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 41,
+    "query": "Find today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 42,
+    "query": "What is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 43,
+    "query": "What is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 44,
+    "query": "Find the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 45,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 46,
+    "query": "What is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 47,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 48,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 49,
+    "query": "What is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 50,
+    "query": "Find the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 51,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 52,
+    "query": "Find the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 53,
+    "query": "Can you tell me what is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 54,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 55,
+    "query": "What is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 56,
+    "query": "What is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 57,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 58,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 59,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 60,
+    "query": "Find the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 61,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 62,
+    "query": "Work out 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 63,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 64,
+    "query": "Find the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 65,
+    "query": "What is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 66,
+    "query": "Work out 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 67,
+    "query": "What is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 68,
+    "query": "What is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 69,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 70,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 71,
+    "query": "What is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 72,
+    "query": "What is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 73,
+    "query": "What is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 74,
+    "query": "Calculate 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 75,
+    "query": "Can you tell me what is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 76,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 77,
+    "query": "What is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 78,
+    "query": "Calculate 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 79,
+    "query": "Explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 80,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 81,
+    "query": "Find the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 82,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 83,
+    "query": "What is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 84,
+    "query": "Find the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 85,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 86,
+    "query": "Can you tell me what is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 87,
+    "query": "Can you tell me what is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 88,
+    "query": "What is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 89,
+    "query": "Explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 90,
+    "query": "What is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 91,
+    "query": "Find the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 92,
+    "query": "What is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 93,
+    "query": "Find the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 94,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 95,
+    "query": "What is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 96,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 97,
+    "query": "Can you tell me what is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 98,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 99,
+    "query": "Find the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 100,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 101,
+    "query": "Find the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 102,
+    "query": "Can you tell me what is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 103,
+    "query": "Can you tell me what is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 104,
+    "query": "Find the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 105,
+    "query": "What is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 106,
+    "query": "What is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 107,
+    "query": "Find the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 108,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 109,
+    "query": "Find today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 110,
+    "query": "Can you tell me what is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 111,
+    "query": "What is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 112,
+    "query": "Can you tell me what is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 113,
+    "query": "Find the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 114,
+    "query": "Find the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 115,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 116,
+    "query": "Calculate 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 117,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 118,
+    "query": "What is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 119,
+    "query": "What is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 120,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 121,
+    "query": "Find today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 122,
+    "query": "What is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 123,
+    "query": "What is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 124,
+    "query": "Find the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 125,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 126,
+    "query": "Find the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 127,
+    "query": "Explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 128,
+    "query": "Find the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 129,
+    "query": "What is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 130,
+    "query": "Look up the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 131,
+    "query": "Find today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 132,
+    "query": "What is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 133,
+    "query": "Work out 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 134,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 135,
+    "query": "What is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 136,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 137,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 138,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 139,
+    "query": "Find the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 140,
+    "query": "What is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 141,
+    "query": "What is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 142,
+    "query": "Calculate 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 143,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 144,
+    "query": "Explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 145,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 146,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 147,
+    "query": "What is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 148,
+    "query": "Can you tell me what is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 149,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 150,
+    "query": "Look up today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 151,
+    "query": "Can you tell me what is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 152,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 153,
+    "query": "What is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 154,
+    "query": "What is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 155,
+    "query": "Can you tell me what is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 156,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 157,
+    "query": "Can you tell me what is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 158,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 159,
+    "query": "What is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 160,
+    "query": "Can you tell me what is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 161,
+    "query": "What is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 162,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 163,
+    "query": "Find the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 164,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 165,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 166,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 167,
+    "query": "What is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 168,
+    "query": "Find the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 169,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 170,
+    "query": "What is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 171,
+    "query": "Find today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 172,
+    "query": "What is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 173,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 174,
+    "query": "What is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 175,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 176,
+    "query": "What is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 177,
+    "query": "Find the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 178,
+    "query": "Can you tell me what is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 179,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 180,
+    "query": "Look up today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 181,
+    "query": "What is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 182,
+    "query": "Explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 183,
+    "query": "What is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 184,
+    "query": "What is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 185,
+    "query": "Work out 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 186,
+    "query": "Find today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 187,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 188,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 189,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 190,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 191,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 192,
+    "query": "Find the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 193,
+    "query": "What is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 194,
+    "query": "Explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 195,
+    "query": "Calculate 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 196,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 197,
+    "query": "Can you tell me what is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 198,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 199,
+    "query": "Calculate 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 200,
+    "query": "What is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 201,
+    "query": "Find the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 202,
+    "query": "Calculate 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 203,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 204,
+    "query": "Find the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 205,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 206,
+    "query": "Explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 207,
+    "query": "What is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 208,
+    "query": "What is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 209,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 210,
+    "query": "Find the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 211,
+    "query": "Find the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 212,
+    "query": "What is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 213,
+    "query": "Can you tell me what is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 214,
+    "query": "What is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 215,
+    "query": "Can you tell me what is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 216,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 217,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 218,
+    "query": "Find today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 219,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 220,
+    "query": "What is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 221,
+    "query": "Can you tell me what is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 222,
+    "query": "Find today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 223,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 224,
+    "query": "Find the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 225,
+    "query": "What is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 226,
+    "query": "Find the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 227,
+    "query": "Explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 228,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 229,
+    "query": "What is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 230,
+    "query": "Find the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 231,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 232,
+    "query": "Can you tell me what is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 233,
+    "query": "Look up the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 234,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 235,
+    "query": "What is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 236,
+    "query": "What is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 237,
+    "query": "Can you tell me what is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 238,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 239,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 240,
+    "query": "What is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 241,
+    "query": "What is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 242,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 243,
+    "query": "Calculate 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 244,
+    "query": "Explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 245,
+    "query": "Look up the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 246,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 247,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 248,
+    "query": "What is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 249,
+    "query": "What is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 250,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 251,
+    "query": "Find the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 252,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 253,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 254,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 255,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 256,
+    "query": "Find the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 257,
+    "query": "What is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 258,
+    "query": "Look up today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 259,
+    "query": "Explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 260,
+    "query": "Can you tell me what is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 261,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 262,
+    "query": "What is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 263,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 264,
+    "query": "What is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 265,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 266,
+    "query": "What is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 267,
+    "query": "What is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 268,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 269,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 270,
+    "query": "What is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 271,
+    "query": "Find today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 272,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 273,
+    "query": "What is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 274,
+    "query": "What is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 275,
+    "query": "Explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 276,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 277,
+    "query": "Find the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 278,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 279,
+    "query": "What is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 280,
+    "query": "Find the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 281,
+    "query": "Find today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 282,
+    "query": "Find the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 283,
+    "query": "What is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 284,
+    "query": "Look up the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 285,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 286,
+    "query": "What is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 287,
+    "query": "What is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 288,
+    "query": "Find today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 289,
+    "query": "What is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 290,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 291,
+    "query": "Can you tell me what is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 292,
+    "query": "What is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 293,
+    "query": "What is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 294,
+    "query": "Explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 295,
+    "query": "What is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 296,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 297,
+    "query": "Explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 298,
+    "query": "Explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 299,
+    "query": "What is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 300,
+    "query": "What is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 301,
+    "query": "What is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 302,
+    "query": "What is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 303,
+    "query": "Find the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 304,
+    "query": "What is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 305,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 306,
+    "query": "Explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 307,
+    "query": "What is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 308,
+    "query": "What is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 309,
+    "query": "What is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 310,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 311,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 312,
+    "query": "Look up the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 313,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 314,
+    "query": "Can you tell me what is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 315,
+    "query": "What is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 316,
+    "query": "Find today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 317,
+    "query": "What is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 318,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 319,
+    "query": "What is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 320,
+    "query": "What is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 321,
+    "query": "Find the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 322,
+    "query": "Can you tell me what is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 323,
+    "query": "What is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 324,
+    "query": "What is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 325,
+    "query": "What is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 326,
+    "query": "Please explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 327,
+    "query": "Find the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 328,
+    "query": "Calculate 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 329,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 330,
+    "query": "What is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 331,
+    "query": "What is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 332,
+    "query": "Can you tell me what is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 333,
+    "query": "Can you tell me what is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 334,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 335,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 336,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 337,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 338,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 339,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 340,
+    "query": "What is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 341,
+    "query": "Please explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 342,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 343,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 344,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 345,
+    "query": "What is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 346,
+    "query": "Look up the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 347,
+    "query": "Find the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 348,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 349,
+    "query": "What is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 350,
+    "query": "Can you tell me what is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 351,
+    "query": "Look up the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 352,
+    "query": "What is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 353,
+    "query": "Can you tell me what is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 354,
+    "query": "Look up the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 355,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 356,
+    "query": "What is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 357,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 358,
+    "query": "Calculate 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 359,
+    "query": "What is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 360,
+    "query": "Find the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 361,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 362,
+    "query": "Can you tell me what is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 363,
+    "query": "What is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 364,
+    "query": "What is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 365,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 366,
+    "query": "Find the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 367,
+    "query": "Calculate 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 368,
+    "query": "Explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 369,
+    "query": "Can you tell me what is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 370,
+    "query": "Find the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 371,
+    "query": "What is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 372,
+    "query": "Look up the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 373,
+    "query": "What is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 374,
+    "query": "Find the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 375,
+    "query": "What is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 376,
+    "query": "Look up the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 377,
+    "query": "What is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 378,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 379,
+    "query": "Find today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 380,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 381,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 382,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 383,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 384,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 385,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 386,
+    "query": "What is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 387,
+    "query": "Can you tell me what is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 388,
+    "query": "What is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 389,
+    "query": "Find the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 390,
+    "query": "Look up today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 391,
+    "query": "Can you tell me what is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 392,
+    "query": "What is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 393,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 394,
+    "query": "Find today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 395,
+    "query": "What is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 396,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 397,
+    "query": "Explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 398,
+    "query": "What is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 399,
+    "query": "Find the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 400,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 401,
+    "query": "Find today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 402,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 403,
+    "query": "What is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 404,
+    "query": "Find the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 405,
+    "query": "Calculate 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 406,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 407,
+    "query": "What is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 408,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 409,
+    "query": "Find the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 410,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 411,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 412,
+    "query": "Find the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 413,
+    "query": "Look up the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 414,
+    "query": "Find the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 415,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 416,
+    "query": "What is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 417,
+    "query": "Calculate 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 418,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 419,
+    "query": "Find the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 420,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 421,
+    "query": "What is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 422,
+    "query": "Explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 423,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 424,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 425,
+    "query": "Look up today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 426,
+    "query": "What is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 427,
+    "query": "Can you tell me what is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 428,
+    "query": "Find today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 429,
+    "query": "Find the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 430,
+    "query": "Please explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 431,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 432,
+    "query": "What is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 433,
+    "query": "What is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 434,
+    "query": "Find today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 435,
+    "query": "What is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 436,
+    "query": "Calculate 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 437,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 438,
+    "query": "Find the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 439,
+    "query": "Find today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 440,
+    "query": "What is the latest OpenAI model and explain what makes it different.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 441,
+    "query": "What is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 442,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 443,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 444,
+    "query": "Find the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 445,
+    "query": "Calculate 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 446,
+    "query": "What are the latest AI regulations and explain their impact on developers.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 447,
+    "query": "Find today's gold price and calculate the value of 10 grams.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 448,
+    "query": "What is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 449,
+    "query": "What is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 450,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 451,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 452,
+    "query": "What is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 453,
+    "query": "What is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 454,
+    "query": "Find the current Bitcoin price and calculate the value of 0.25 Bitcoin.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 455,
+    "query": "Explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 456,
+    "query": "What is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 457,
+    "query": "What is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 458,
+    "query": "What is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 459,
+    "query": "What is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 460,
+    "query": "Calculate 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 461,
+    "query": "What is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 462,
+    "query": "Find the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 463,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 464,
+    "query": "Calculate 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 465,
+    "query": "Calculate 15 percent of 12000.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 466,
+    "query": "What is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 467,
+    "query": "What is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 468,
+    "query": "What is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 469,
+    "query": "What is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 470,
+    "query": "Find the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 471,
+    "query": "What is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 472,
+    "query": "Can you tell me what is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 473,
+    "query": "Convert 500 dollars to INR using today's exchange rate.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 474,
+    "query": "What is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 475,
+    "query": "What is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 476,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 477,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 478,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 479,
+    "query": "Find the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 480,
+    "query": "Find the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 481,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 482,
+    "query": "What is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 483,
+    "query": "Which product do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 484,
+    "query": "What is the latest AI news?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 485,
+    "query": "What is the current price of Ethereum and what is it used for?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 486,
+    "query": "Which company are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 487,
+    "query": "What is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 488,
+    "query": "What is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 489,
+    "query": "What is the current EUR to INR rate and convert 100 euros to rupees.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 490,
+    "query": "Find the current Tesla stock price and calculate the value of 10 shares.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 491,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 492,
+    "query": "What are the newest developments in robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 493,
+    "query": "What is today's crude oil price and calculate the cost of 20 barrels.",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 494,
+    "query": "What is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 495,
+    "query": "Why are transformers effective for language tasks?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 496,
+    "query": "What is 25 percent of 8400?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 497,
+    "query": "What is the latest NVIDIA GPU and explain its main improvements.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 498,
+    "query": "Look up the latest Python release and explain the major changes.",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 499,
+    "query": "Please explain reinforcement learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 500,
+    "query": "What is today's USD to INR exchange rate?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  }
+]

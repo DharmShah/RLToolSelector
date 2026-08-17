@@ -2,3 +2,7 @@ fastapi
 uvicorn[standard]
 groq
 python-dotenv
+
+torch
+sentence-transformers
+scikit-learn
