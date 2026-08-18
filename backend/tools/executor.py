@@ -6,43 +6,74 @@ from tools.llm import generate_response
 
 
 def extract_calculation(query: str) -> str:
+    """
+    Convert a natural-language calculation query
+    into a mathematical expression.
+
+    Examples:
+        "What is 27% of 8450?"
+            -> "(27 / 100) * 8450"
+
+        "What is 17.5% of 12,800?"
+            -> "(17.5 / 100) * 12800"
+
+        "25 * 48"
+            -> "25 * 48"
+    """
 
     text = query.lower().strip()
 
-    # ---------------------------------------------
-    # Percentage: "27% of 8450"
-    # ---------------------------------------------
+    # =====================================================
+    # PERCENTAGE CALCULATIONS
+    # =====================================================
 
-    match = re.search(
-        r"(\d+(?:\.\d+)?)\s*%?\s*percent\s*of\s*(\d+(?:\.\d+)?)",
+    # Matches:
+    # 27% of 8450
+    # 17.5% of 12,800
+    # 25 percent of 800
+    # 12.5 percent of 1,000
+    percentage_match = re.search(
+        r"(\d+(?:\.\d+)?)"
+        r"\s*(?:%|percent)"
+        r"\s+of\s+"
+        r"([\d,]+(?:\.\d+)?)",
         text,
     )
 
-    if not match:
+    if percentage_match:
 
-        match = re.search(
-            r"(\d+(?:\.\d+)?)\s*%\s*of\s*(\d+(?:\.\d+)?)",
-            text,
+        percent = percentage_match.group(1)
+
+        number = (
+            percentage_match
+            .group(2)
+            .replace(",", "")
         )
 
-    if match:
+        return (
+            f"({percent} / 100) * {number}"
+        )
 
-        percent = match.group(1)
-        number = match.group(2)
-
-        return f"({percent} / 100) * {number}"
-
-    # ---------------------------------------------
-    # Mathematical expression
-    # ---------------------------------------------
+    # =====================================================
+    # GENERAL MATHEMATICAL EXPRESSIONS
+    # =====================================================
 
     expression_match = re.search(
-        r"[\d\s+\-*/().%]+",
+        r"[\d\s+\-*/().%,]+",
         text,
     )
 
     if expression_match:
-        return expression_match.group(0).strip()
+
+        expression = (
+            expression_match
+            .group(0)
+            .replace(",", "")
+            .strip()
+        )
+
+        if expression:
+            return expression
 
     raise ValueError(
         f"Could not extract calculation from: {query}"
@@ -53,12 +84,23 @@ def execute_tool(
     tool: str,
     query: str,
 ) -> dict:
+    """
+    Execute the tool selected by the RL policy.
+    """
+
+    # =====================================================
+    # CALCULATOR
+    # =====================================================
 
     if tool == "calculator":
 
-        expression = extract_calculation(query)
+        expression = extract_calculation(
+            query
+        )
 
-        result = calculate(expression)
+        result = calculate(
+            expression
+        )
 
         return {
             "tool": "calculator",
@@ -66,14 +108,24 @@ def execute_tool(
             "result": str(result),
         }
 
+    # =====================================================
+    # SEARCH
+    # =====================================================
+
     if tool == "search":
 
-        result = search(query)
+        result = search(
+            query
+        )
 
         return {
             "tool": "search",
             "result": result,
         }
+
+    # =====================================================
+    # LLM
+    # =====================================================
 
     if tool == "llm":
 
@@ -91,12 +143,20 @@ def execute_tool(
             "result": result,
         }
 
+    # =====================================================
+    # ASK USER
+    # =====================================================
+
     if tool == "ask_user":
 
         return {
             "tool": "ask_user",
             "result": None,
         }
+
+    # =====================================================
+    # UNKNOWN TOOL
+    # =====================================================
 
     raise ValueError(
         f"Unknown tool: {tool}"

@@ -1,5 +1,3 @@
-import os
-
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -16,13 +14,20 @@ load_dotenv()
 
 
 # =========================================================
+# CONFIGURATION
+# =========================================================
+
+MODEL = "openai/gpt-oss-20b"
+
+
+# =========================================================
 # FASTAPI
 # =========================================================
 
 app = FastAPI(
     title="NEXUS RL Agent API",
     description="Backend API for the NEXUS AI Agent",
-    version="2.0.0",
+    version="2.1.0",
 )
 
 
@@ -49,7 +54,7 @@ agent = Agent()
 
 
 # =========================================================
-# REQUEST SCHEMA
+# REQUEST SCHEMAS
 # =========================================================
 
 class Message(BaseModel):
@@ -71,30 +76,33 @@ class ChatResponse(BaseModel):
     model: str
     tool: str | None = None
     confidence: float | None = None
+    reward: float | None = None
 
 
 # =========================================================
-# HEALTH
+# HEALTH CHECK
 # =========================================================
 
 @app.get("/")
 def root():
+
     return {
         "status": "online",
         "service": "NEXUS RL Agent API",
-        "model": "openai/gpt-oss-20b",
+        "model": MODEL,
     }
 
 
 @app.get("/health")
 def health():
+
     return {
         "status": "healthy",
     }
 
 
 # =========================================================
-# CHAT
+# CHAT ENDPOINT
 # =========================================================
 
 @app.post(
@@ -105,18 +113,33 @@ def chat(request: ChatRequest):
 
     try:
 
+        # -------------------------------------------------
+        # Run RL Agent
+        # -------------------------------------------------
+
         result = agent.run(
             request.message
         )
 
+        # -------------------------------------------------
+        # Extract response
+        # -------------------------------------------------
+
+        response = result.get(
+            "response",
+            result.get("result", ""),
+        )
+
+        # -------------------------------------------------
+        # Return agent information
+        # -------------------------------------------------
+
         return ChatResponse(
-            response=result.get(
-                "response",
-                result.get("result", ""),
-            ),
-            model="openai/gpt-oss-20b",
+            response=response,
+            model=MODEL,
             tool=result.get("tool"),
             confidence=result.get("confidence"),
+            reward=result.get("reward"),
         )
 
     except Exception as error:

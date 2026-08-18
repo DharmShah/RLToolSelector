@@ -12,6 +12,14 @@ import {
 
 const API_URL = "http://localhost:8000";
 
+// Tools the sidebar knows how to highlight.
+// Keys should match whatever the backend sends back in `data.tool`.
+const TOOLS = [
+  { key: "search", label: "Search" },
+  { key: "calculator", label: "Calculator" },
+  { key: "llm", label: "LLM" },
+];
+
 function Chatbot({ onBack }) {
   const [input, setInput] = useState("");
 
@@ -23,6 +31,11 @@ function Chatbot({ onBack }) {
   ]);
 
   const [isThinking, setIsThinking] = useState(false);
+
+  // Dynamic agent state, now driven by the backend response
+  // instead of being hardcoded.
+  const [reward, setReward] = useState(null); // null until we get a real value
+  const [selectedTool, setSelectedTool] = useState(null); // e.g. "search" | "calculator" | "llm"
 
   /*
    * ========================================================
@@ -101,6 +114,21 @@ function Chatbot({ onBack }) {
         },
       ]);
 
+      /*
+       * Update reward + selected tool from this turn.
+       * Expecting the backend to send something like:
+       *   { response: "...", tool: "search", reward: 0.87 }
+       * Falls back gracefully if either field is missing.
+       */
+
+      if (typeof data.reward === "number") {
+        setReward(data.reward);
+      }
+
+      if (typeof data.tool === "string") {
+        setSelectedTool(data.tool.toLowerCase());
+      }
+
     } catch (error) {
 
       console.error("Chat error:", error);
@@ -157,6 +185,23 @@ function Chatbot({ onBack }) {
 
     setInput("");
     setIsThinking(false);
+    setReward(null);
+    setSelectedTool(null);
+  };
+
+
+  /*
+   * ========================================================
+   * HELPERS
+   * ========================================================
+   */
+
+  const formatReward = (value) => {
+    if (value === null || value === undefined) {
+      return "—";
+    }
+    const sign = value >= 0 ? "+" : "";
+    return `${sign}${value.toFixed(2)}`;
   };
 
 
@@ -249,7 +294,11 @@ function Chatbot({ onBack }) {
 
             <div className="policy-item">
               <span>Tool Selection</span>
-              <strong>ACTIVE</strong>
+              <strong>
+                {selectedTool
+                  ? TOOLS.find((t) => t.key === selectedTool)?.label ?? selectedTool
+                  : "ACTIVE"}
+              </strong>
             </div>
 
             <div className="policy-item">
@@ -272,7 +321,7 @@ function Chatbot({ onBack }) {
             </span>
 
             <div className="big-stat">
-              +0.94
+              {formatReward(reward)}
             </div>
 
             <small>
@@ -288,20 +337,19 @@ function Chatbot({ onBack }) {
               ENVIRONMENT
             </span>
 
-            <div className="environment-status">
-              <span>Search</span>
-              <strong>READY</strong>
-            </div>
-
-            <div className="environment-status">
-              <span>Calculator</span>
-              <strong>READY</strong>
-            </div>
-
-            <div className="environment-status">
-              <span>LLM</span>
-              <strong>READY</strong>
-            </div>
+            {TOOLS.map((tool) => (
+              <div
+                key={tool.key}
+                className={`environment-status${
+                  selectedTool === tool.key ? " active" : ""
+                }`}
+              >
+                <span>{tool.label}</span>
+                <strong>
+                  {selectedTool === tool.key ? "IN USE" : "READY"}
+                </strong>
+              </div>
+            ))}
 
           </div>
 
@@ -485,5 +533,6 @@ function Chatbot({ onBack }) {
     </div>
   );
 }
+
 
 export default Chatbot;

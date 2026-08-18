@@ -12,7 +12,13 @@ class Agent:
 
     def __init__(self):
 
-        self.base_dir = Path(__file__).resolve().parent.parent
+        # =================================================
+        # PATHS
+        # =================================================
+
+        self.base_dir = (
+            Path(__file__).resolve().parent.parent
+        )
 
         self.model_path = (
             self.base_dir
@@ -20,17 +26,17 @@ class Agent:
             / "agent_policy_v2.pt"
         )
 
-        # -------------------------------------------------
-        # Embedding model
-        # -------------------------------------------------
+        # =================================================
+        # EMBEDDING MODEL
+        # =================================================
 
         self.embedding_model = SentenceTransformer(
             "all-MiniLM-L6-v2"
         )
 
-        # -------------------------------------------------
-        # Load trained RL policy
-        # -------------------------------------------------
+        # =================================================
+        # LOAD RL POLICY
+        # =================================================
 
         checkpoint = torch.load(
             self.model_path,
@@ -52,10 +58,17 @@ class Agent:
         self.policy.eval()
 
     # =====================================================
-    # RL TOOL SELECTION
+    # TOOL SELECTION
     # =====================================================
 
-    def select_tool(self, query: str) -> dict:
+    def select_tool(
+        self,
+        query: str,
+    ) -> dict:
+        """
+        Use the trained RL policy to select
+        the most appropriate tool.
+        """
 
         embedding = self.embedding_model.encode(
             query,
@@ -92,94 +105,387 @@ class Agent:
 
         return {
             "tool": self.tools[tool_id],
-            "confidence": confidence,
+            "confidence": round(
+                confidence,
+                4,
+            ),
         }
 
     # =====================================================
-    # AGENT EXECUTION
+    # REWARD CALCULATION
     # =====================================================
 
-    def run(self, query: str) -> dict:
+    def calculate_reward(
+        self,
+        tool: str,
+        confidence: float,
+        result,
+    ) -> float:
+        """
+        Calculate runtime reward.
+
+        Reward is based on whether the selected
+        tool successfully completed execution.
+
+        Successful execution:
+            positive reward
+
+        Failed execution:
+            zero reward
+        """
 
         # -------------------------------------------------
-        # 1. RL selects tool
+        # Tool execution failed
         # -------------------------------------------------
 
-        decision = self.select_tool(query)
+        if result is None:
 
-        tool = decision["tool"]
-        confidence = decision["confidence"]
+            return 0.0
 
         # -------------------------------------------------
-        # 2. Ask user
+        # Empty result
         # -------------------------------------------------
 
-        if tool == "ask_user":
+        if isinstance(result, str):
+
+            if not result.strip():
+
+                return 0.0
+
+        # -------------------------------------------------
+        # Successful execution
+        # -------------------------------------------------
+
+        return round(
+            confidence,
+            4,
+        )
+
+    # =====================================================
+    # ASK USER
+    # =====================================================
+
+    def handle_ask_user(
+        self,
+        query: str,
+        confidence: float,
+    ) -> dict:
+
+        return {
+            "query": query,
+            "tool": "ask_user",
+            "confidence": confidence,
+            "reward": round(
+                confidence,
+                4,
+            ),
+            "result": None,
+            "response": (
+                "I need a little more information "
+                "to answer that. Could you clarify?"
+            ),
+        }
+
+    # =====================================================
+    # CALCULATOR
+    # =====================================================
+
+    def handle_calculator(
+        self,
+        query: str,
+        confidence: float,
+    ) -> dict:
+        """
+        Execute calculator safely.
+
+        If the RL policy incorrectly chooses
+        calculator for a non-mathematical query,
+        fall back to the LLM instead of crashing.
+        """
+
+        try:
+
+            execution = execute_tool(
+                "calculator",
+                query,
+            )
+
+            result = execution["result"]
+
+            reward = self.calculate_reward(
+                tool="calculator",
+                confidence=confidence,
+                result=result,
+            )
 
             return {
                 "query": query,
-                "tool": tool,
+                "tool": "calculator",
                 "confidence": confidence,
-                "result": None,
+                "reward": reward,
+                "result": result,
                 "response": (
-                    "I need a little more information "
-                    "to answer that. Could you clarify?"
+                    f"The answer is {result}."
                 ),
             }
 
-        # -------------------------------------------------
-        # 3. Calculator
-        # -------------------------------------------------
+        except Exception as error:
 
-        if tool == "calculator":
+            # -------------------------------------------------
+            # Wrong tool selected by RL
+            # -------------------------------------------------
 
-            execution = execute_tool(
-                tool,
-                query,
+            print(
+                f"[Calculator Error] {error}"
             )
 
-            result = execution["result"]
+            # -------------------------------------------------
+            # Fallback to LLM
+            # -------------------------------------------------
 
-            # Deterministic response.
-            # Don't send a simple calculation through the LLM.
-            response = (
-                f"The answer is {result}."
+            response = generate_response(
+                user_query=query,
+                tool="llm",
+                tool_result=(
+                    "The calculator could not "
+                    "process this request. "
+                    "Answer the user's question "
+                    "using general knowledge."
+                ),
             )
 
             return {
                 "query": query,
-                "tool": tool,
+
+                # Actual fallback tool
+                "tool": "llm",
+
+                # Keep original policy confidence
                 "confidence": confidence,
-                "result": result,
+
+                # Wrong calculator selection
+                "reward": 0.0,
+
+                "result": None,
+
                 "response": response,
             }
 
-        # -------------------------------------------------
-        # 4. Search
-        # -------------------------------------------------
+    # =====================================================
+    # SEARCH
+    # =====================================================
 
-        if tool == "search":
+    def handle_search(
+        self,
+        query: str,
+        confidence: float,
+    ) -> dict:
+        """
+        Execute search and generate a natural
+        language response.
+        """
+
+        try:
 
             execution = execute_tool(
-                tool,
+                "search",
                 query,
             )
 
             result = execution["result"]
 
+            reward = self.calculate_reward(
+                tool="search",
+                confidence=confidence,
+                result=result,
+            )
+
             response = generate_response(
                 user_query=query,
-                tool=tool,
+                tool="search",
                 tool_result=str(result),
             )
 
             return {
                 "query": query,
-                "tool": tool,
+                "tool": "search",
                 "confidence": confidence,
+                "reward": reward,
                 "result": result,
                 "response": response,
             }
+
+        except Exception as error:
+
+            print(
+                f"[Search Error] {error}"
+            )
+
+            return {
+                "query": query,
+                "tool": "search",
+                "confidence": confidence,
+                "reward": 0.0,
+                "result": None,
+                "response": (
+                    "I couldn't retrieve the "
+                    "information right now."
+                ),
+            }
+
+    # =====================================================
+    # LLM
+    # =====================================================
+
+    def handle_llm(
+        self,
+        query: str,
+        confidence: float,
+    ) -> dict:
+        """
+        Generate a response using the LLM.
+        """
+
+        try:
+
+            response = generate_response(
+                user_query=query,
+                tool="llm",
+                tool_result=(
+                    "No external tool was required. "
+                    "Answer using general knowledge."
+                ),
+            )
+
+            reward = self.calculate_reward(
+                tool="llm",
+                confidence=confidence,
+                result=response,
+            )
+
+            return {
+                "query": query,
+                "tool": "llm",
+                "confidence": confidence,
+                "reward": reward,
+                "result": None,
+                "response": response,
+            }
+
+        except Exception as error:
+
+            print(
+                f"[LLM Error] {error}"
+            )
+
+            return {
+                "query": query,
+                "tool": "llm",
+                "confidence": confidence,
+                "reward": 0.0,
+                "result": None,
+                "response": (
+                    "I couldn't generate a response "
+                    "right now."
+                ),
+            }
+
+    # =====================================================
+    # MAIN AGENT EXECUTION
+    # =====================================================
+
+    def run(
+        self,
+        query: str,
+    ) -> dict:
+        """
+        Complete NEXUS execution pipeline.
+
+        User Query
+              ↓
+        RL Tool Selection
+              ↓
+        ┌───────────────┐
+        │ Selected Tool│
+        └───────┬───────┘
+                ↓
+        Tool Execution
+                ↓
+        Response Generation
+                ↓
+        Reward
+                ↓
+        Final Response
+        """
+
+        # -------------------------------------------------
+        # Validate query
+        # -------------------------------------------------
+
+        query = query.strip()
+
+        if not query:
+
+            return {
+                "query": query,
+                "tool": "ask_user",
+                "confidence": 1.0,
+                "reward": 1.0,
+                "result": None,
+                "response": (
+                    "Please provide a question "
+                    "or task."
+                ),
+            }
+
+        # -------------------------------------------------
+        # 1. RL TOOL SELECTION
+        # -------------------------------------------------
+
+        decision = self.select_tool(
+            query
+        )
+
+        tool = decision["tool"]
+        confidence = decision["confidence"]
+
+        print(
+            f"[NEXUS] Tool: {tool} | "
+            f"Confidence: {confidence}"
+        )
+
+        # -------------------------------------------------
+        # 2. ASK USER
+        # -------------------------------------------------
+
+        if tool == "ask_user":
+
+            return self.handle_ask_user(
+                query=query,
+                confidence=confidence,
+            )
+
+        # -------------------------------------------------
+        # 3. CALCULATOR
+        # -------------------------------------------------
+
+        if tool == "calculator":
+
+            return self.handle_calculator(
+                query=query,
+                confidence=confidence,
+            )
+
+        # -------------------------------------------------
+        # 4. SEARCH
+        # -------------------------------------------------
+
+        if tool == "search":
+
+            return self.handle_search(
+                query=query,
+                confidence=confidence,
+            )
 
         # -------------------------------------------------
         # 5. LLM
@@ -187,34 +493,27 @@ class Agent:
 
         if tool == "llm":
 
-            response = generate_response(
-                user_query=query,
-                tool="llm",
-                tool_result=(
-                    "No external tool was required. "
-                    "Answer using your general knowledge."
-                ),
+            return self.handle_llm(
+                query=query,
+                confidence=confidence,
             )
 
-            return {
-                "query": query,
-                "tool": tool,
-                "confidence": confidence,
-                "result": None,
-                "response": response,
-            }
+        # -------------------------------------------------
+        # 6. FINISH / UNKNOWN TOOL
+        # -------------------------------------------------
 
-        # -------------------------------------------------
-        # 6. Finish
-        # -------------------------------------------------
+        print(
+            f"[NEXUS] Unknown tool selected: {tool}"
+        )
 
         return {
             "query": query,
             "tool": tool,
             "confidence": confidence,
+            "reward": 0.0,
             "result": None,
             "response": (
-                "I couldn't determine the appropriate "
-                "action for this request."
+                "I couldn't determine the "
+                "appropriate action for this request."
             ),
         }
