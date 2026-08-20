@@ -1,0 +1,10052 @@
+[
+  {
+    "id": 1,
+    "query": "Show me the latest developments in AI coding tools?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 2,
+    "query": "How does fine-tuning work?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 3,
+    "query": "Can you find the recent developments in multimodal AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 4,
+    "query": "Can you find the latest information about OpenAI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 5,
+    "query": "What are the common mistakes when using reinforcement learning?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 6,
+    "query": "Calculate 2703 - 136.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 7,
+    "query": "What exactly would you like me to compare?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 8,
+    "query": "What are the latest developments in artificial intelligence?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 9,
+    "query": "What is the current trends in generative AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 10,
+    "query": "Show me the latest updates in cloud computing?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 11,
+    "query": "What date are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 12,
+    "query": "What are the recent developments in NVIDIA AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 13,
+    "query": "Calculate 758 - 87.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 14,
+    "query": "Which company are you asking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 15,
+    "query": "What are the advantages and disadvantages of transformers?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 16,
+    "query": "Give me a beginner-friendly explanation of RAG.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 17,
+    "query": "Look up the recent news about robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 18,
+    "query": "Calculate 6744 divided by 222.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 19,
+    "query": "Explain generative AI in simple terms.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 20,
+    "query": "What is 9591 multiplied by 308?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 21,
+    "query": "What topic do you want me to explain?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 22,
+    "query": "Calculate 6433 - 43.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 23,
+    "query": "What are the advantages and disadvantages of tool calling?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 24,
+    "query": "Look up the recent developments in AI hardware?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 25,
+    "query": "What are the recent developments in NVIDIA AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 26,
+    "query": "Which project are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 27,
+    "query": "How would you use MCP in a real-world project?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 28,
+    "query": "Which product are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 29,
+    "query": "What topic do you want me to explain?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 30,
+    "query": "What is 9321 multiplied by 320?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 31,
+    "query": "Which dataset are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 32,
+    "query": "What is 1546 multiplied by 390?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 33,
+    "query": "Look up the recent news about robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 34,
+    "query": "Why is unsupervised learning important?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 35,
+    "query": "What is 1311 multiplied by 50?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 36,
+    "query": "Explain supervised learning in simple terms.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 37,
+    "query": "Which application are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 38,
+    "query": "Show me the latest Python releases?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 39,
+    "query": "Find 50% of 4800.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 40,
+    "query": "Give me a beginner-friendly explanation of supervised learning.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 41,
+    "query": "What information should I look up?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 42,
+    "query": "Explain supervised learning in simple terms.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 43,
+    "query": "Which version do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 44,
+    "query": "What date are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 45,
+    "query": "Can you find the latest developments in deep learning?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 46,
+    "query": "Which person do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 47,
+    "query": "Why is large language models important?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 48,
+    "query": "Which dataset are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 49,
+    "query": "What is the current trends in generative AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 50,
+    "query": "What are the advantages and disadvantages of transformers?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 51,
+    "query": "Which version do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 52,
+    "query": "How does fine-tuning work?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 53,
+    "query": "Explain supervised learning in simple terms.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 54,
+    "query": "Calculate 3243 - 129.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 55,
+    "query": "What is the current trends in LLM inference?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 56,
+    "query": "What is 15600 + 388?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 57,
+    "query": "What are the advantages and disadvantages of deep learning?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 58,
+    "query": "Calculate 1093 - 217.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 59,
+    "query": "What is 1141 multiplied by 79?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 60,
+    "query": "How would you use function calling in a real-world project?",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 61,
+    "query": "Why is unsupervised learning important?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 62,
+    "query": "What are the common mistakes when using transformers?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 63,
+    "query": "Which model do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 64,
+    "query": "Show me the latest Python releases?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 65,
+    "query": "Which model do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 66,
+    "query": "What is 9711 multiplied by 317?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 67,
+    "query": "Could you provide more context?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 68,
+    "query": "Calculate 7368 - 185.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 69,
+    "query": "What is 961 multiplied by 87?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 70,
+    "query": "Look up the latest developments in autonomous vehicles?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 71,
+    "query": "Which file should I use?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 72,
+    "query": "Why is large language models important?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 73,
+    "query": "Find 20% of 875.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 74,
+    "query": "Can you find the recent developments in multimodal AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 75,
+    "query": "Which company are you asking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 76,
+    "query": "What is 2086 multiplied by 383?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 77,
+    "query": "Calculate 1388 - 76.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 78,
+    "query": "Which programming language do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 79,
+    "query": "What topic do you want me to explain?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 80,
+    "query": "Can you clarify your request?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 81,
+    "query": "What is the current trends in generative AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 82,
+    "query": "What is 1491 multiplied by 59?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 83,
+    "query": "Can you find the latest information about OpenAI?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 84,
+    "query": "What is the latest developments in Google AI?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 85,
+    "query": "How does large language models work?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 86,
+    "query": "What is 9951 multiplied by 309?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 87,
+    "query": "Which project are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 88,
+    "query": "Give me a beginner-friendly explanation of attention mechanisms.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 89,
+    "query": "What are the common mistakes when using reinforcement learning?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 90,
+    "query": "Give me a beginner-friendly explanation of supervised learning.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 91,
+    "query": "Can you find the recent developments in multimodal AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 92,
+    "query": "What is the current trends in generative AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 93,
+    "query": "Compare neural networks with a traditional approach.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 94,
+    "query": "Give me a beginner-friendly explanation of attention mechanisms.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 95,
+    "query": "Calculate 7194 divided by 219.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 96,
+    "query": "Find 50% of 4320.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 97,
+    "query": "How does AI agents work?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 98,
+    "query": "Which company are you asking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 99,
+    "query": "How would you use vector databases in a real-world project?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 100,
+    "query": "Which application are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 101,
+    "query": "Compare function calling with a traditional approach.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 102,
+    "query": "Look up the recent developments in Microsoft AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 103,
+    "query": "Show me the current trends in AI agents?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 104,
+    "query": "Show me the latest updates in cloud computing?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 105,
+    "query": "Which person do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 106,
+    "query": "Find 20% of 875.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 107,
+    "query": "How would you use neural networks in a real-world project?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 108,
+    "query": "Which person do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 109,
+    "query": "Look up the recent developments in Microsoft AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 110,
+    "query": "Look up the recent news about robotics?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 111,
+    "query": "Why is large language models important?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 112,
+    "query": "Which company are you asking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 113,
+    "query": "How would you use prompt engineering in a real-world project?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 114,
+    "query": "Compare function calling with a traditional approach.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 115,
+    "query": "Explain LLMOps in simple terms.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 116,
+    "query": "Find 50% of 4800.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 117,
+    "query": "What is 1041 multiplied by 45?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 118,
+    "query": "Show me the latest Python releases?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 119,
+    "query": "What are the common mistakes when using MLOps?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 120,
+    "query": "Explain generative AI in simple terms.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 121,
+    "query": "Calculate 7568 - 86.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 122,
+    "query": "What is 9801 multiplied by 330?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 123,
+    "query": "Compare function calling with a traditional approach.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 124,
+    "query": "Find 50% of 4320.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 125,
+    "query": "What are the advantages and disadvantages of reinforcement learning?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 126,
+    "query": "Why is unsupervised learning important?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 127,
+    "query": "Calculate 7658 - 99.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 128,
+    "query": "Which programming language do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 129,
+    "query": "Which version do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 130,
+    "query": "What are the recent developments in machine learning?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 131,
+    "query": "What is 1771 multiplied by 85?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 132,
+    "query": "What location are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 133,
+    "query": "Which version do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 134,
+    "query": "Why is fine-tuning important?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 135,
+    "query": "What is 1980 + 282?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 136,
+    "query": "Why is large language models important?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 137,
+    "query": "What is the current trends in generative AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 138,
+    "query": "Can you find the latest developments in large language models?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 139,
+    "query": "Show me the latest Python releases?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 140,
+    "query": "What is 9621 multiplied by 321?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 141,
+    "query": "How does fine-tuning work?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 142,
+    "query": "Calculate 1298 - 80.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 143,
+    "query": "Which technology are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 144,
+    "query": "Why is embeddings important?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 145,
+    "query": "Which project are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 146,
+    "query": "Which product are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 147,
+    "query": "Explain generative AI in simple terms.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 148,
+    "query": "What is the latest developments in Google AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 149,
+    "query": "Show me the latest developments in AI coding tools?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 150,
+    "query": "What are the common mistakes when using deep learning?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 151,
+    "query": "Show me the current trends in AI agents?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 152,
+    "query": "Compare neural networks with a traditional approach.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 153,
+    "query": "Why is embeddings important?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 154,
+    "query": "Show me the latest updates in cloud computing?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 155,
+    "query": "What item should I search for?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 156,
+    "query": "What are the latest developments in artificial intelligence?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 157,
+    "query": "What are the latest developments in artificial intelligence?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 158,
+    "query": "Find 20% of 3750.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 159,
+    "query": "How does large language models work?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 160,
+    "query": "Look up the recent developments in Microsoft AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 161,
+    "query": "What are the common mistakes when using deep learning?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 162,
+    "query": "What is 1726 multiplied by 382?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 163,
+    "query": "Show me the latest developments in AI coding tools?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 164,
+    "query": "Calculate 7394 divided by 264.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 165,
+    "query": "Compare prompt engineering with a traditional approach.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 166,
+    "query": "What are the advantages and disadvantages of reinforcement learning?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 167,
+    "query": "Which version do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 168,
+    "query": "What are the latest updates in RAG systems?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 169,
+    "query": "Give me a beginner-friendly explanation of LLMOps.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 170,
+    "query": "Look up the recent news about robotics?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 171,
+    "query": "What are the latest developments in artificial intelligence?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 172,
+    "query": "Which programming language do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 173,
+    "query": "How does AI agents work?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 174,
+    "query": "How would you use vector databases in a real-world project?",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 175,
+    "query": "Which version do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 176,
+    "query": "What is 10065 multiplied by 116?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 177,
+    "query": "Can you find the recent developments in multimodal AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 178,
+    "query": "Explain supervised learning in simple terms.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 179,
+    "query": "Look up the recent developments in Microsoft AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 180,
+    "query": "Could you provide more context?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 181,
+    "query": "What is the current trends in generative AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 182,
+    "query": "How does embeddings work?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 183,
+    "query": "Calculate 3153 - 133.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 184,
+    "query": "Which dataset are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 185,
+    "query": "Compare MCP with a traditional approach.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 186,
+    "query": "Find 20% of 5200.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 187,
+    "query": "How does unsupervised learning work?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 188,
+    "query": "Could you provide more context?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 189,
+    "query": "Calculate 2973 - 124.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 190,
+    "query": "Why is embeddings important?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 191,
+    "query": "Look up the recent developments in AI hardware?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 192,
+    "query": "Find 20% of 3750.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 193,
+    "query": "Find 50% of 4800.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 194,
+    "query": "What are the recent developments in machine learning?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 195,
+    "query": "What is 2160 + 291?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 196,
+    "query": "Give me a beginner-friendly explanation of RAG.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 197,
+    "query": "What are the advantages and disadvantages of transformers?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 198,
+    "query": "What date are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 199,
+    "query": "Find 50% of 4800.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 200,
+    "query": "Calculate 6938 - 97.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 201,
+    "query": "How would you use neural networks in a real-world project?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 202,
+    "query": "What date are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 203,
+    "query": "Show me the latest updates in cloud computing?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 204,
+    "query": "Which file should I use?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 205,
+    "query": "What date are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 206,
+    "query": "What are the common mistakes when using MLOps?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 207,
+    "query": "Calculate 8699 divided by 122.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 208,
+    "query": "What exactly would you like me to compare?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 209,
+    "query": "What location are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 210,
+    "query": "What are the advantages and disadvantages of transformers?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 211,
+    "query": "Calculate 4704 divided by 225.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 212,
+    "query": "What is 755 + 54?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 213,
+    "query": "How does large language models work?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 214,
+    "query": "What is 1125 + 35?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 215,
+    "query": "What exactly would you like me to compare?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 216,
+    "query": "What date are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 217,
+    "query": "Can you find the latest developments in deep learning?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 218,
+    "query": "Find 20% of 875.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 219,
+    "query": "Can you find the latest information about OpenAI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 220,
+    "query": "What topic do you want me to explain?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 221,
+    "query": "What topic do you want me to explain?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 222,
+    "query": "Show me the latest developments in AI coding tools?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 223,
+    "query": "Look up the recent news about robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 224,
+    "query": "Which version do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 225,
+    "query": "What are the recent developments in NVIDIA AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 226,
+    "query": "What topic do you want me to explain?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 227,
+    "query": "How does large language models work?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 228,
+    "query": "What is 1530 + 285?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 229,
+    "query": "Calculate 2859 divided by 125.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 230,
+    "query": "Which model do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 231,
+    "query": "Calculate 1453 - 218.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 232,
+    "query": "Calculate 938 - 79.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 233,
+    "query": "What are the recent developments in machine learning?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 234,
+    "query": "Can you find the latest developments in large language models?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 235,
+    "query": "Compare function calling with a traditional approach.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 236,
+    "query": "Calculate 8429 divided by 117.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 237,
+    "query": "Find 50% of 4800.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 238,
+    "query": "Give me a beginner-friendly explanation of attention mechanisms.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 239,
+    "query": "Can you find the latest developments in large language models?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 240,
+    "query": "What exactly would you like me to compare?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 241,
+    "query": "How would you use neural networks in a real-world project?",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 242,
+    "query": "What is 10335 multiplied by 121?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 243,
+    "query": "Calculate 8339 divided by 121.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 244,
+    "query": "What are the common mistakes when using tool calling?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 245,
+    "query": "Why is embeddings important?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 246,
+    "query": "Which application are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 247,
+    "query": "Which file should I use?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 248,
+    "query": "What is 1851 multiplied by 60?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 249,
+    "query": "How would you use vector databases in a real-world project?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 250,
+    "query": "What is 10605 multiplied by 126?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 251,
+    "query": "What are the advantages and disadvantages of tool calling?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 252,
+    "query": "Which programming language do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 253,
+    "query": "Calculate 7304 divided by 251.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 254,
+    "query": "Calculate 9429 divided by 152.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 255,
+    "query": "Compare function calling with a traditional approach.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 256,
+    "query": "How would you use neural networks in a real-world project?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 257,
+    "query": "What are the latest developments in artificial intelligence?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 258,
+    "query": "Can you find the recent developments in multimodal AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 259,
+    "query": "What are the common mistakes when using reinforcement learning?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 260,
+    "query": "Which company are you asking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 261,
+    "query": "Explain LLMOps in simple terms.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 262,
+    "query": "What is 2340 + 283?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 263,
+    "query": "Find 50% of 4800.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 264,
+    "query": "Compare vector databases with a traditional approach.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 265,
+    "query": "How would you use prompt engineering in a real-world project?",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 266,
+    "query": "Show me the latest Python releases?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 267,
+    "query": "What is 9891 multiplied by 326?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 268,
+    "query": "Look up the latest developments in autonomous vehicles?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 269,
+    "query": "Calculate 6848 - 101.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 270,
+    "query": "Which project are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 271,
+    "query": "What are the advantages and disadvantages of deep learning?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 272,
+    "query": "Which person do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 273,
+    "query": "How would you use function calling in a real-world project?",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 274,
+    "query": "Why is fine-tuning important?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 275,
+    "query": "How does unsupervised learning work?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 276,
+    "query": "What information should I look up?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 277,
+    "query": "Which product are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 278,
+    "query": "Why is unsupervised learning important?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 279,
+    "query": "What is 15240 + 387?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 280,
+    "query": "What are the common mistakes when using deep learning?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 281,
+    "query": "Why is unsupervised learning important?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 282,
+    "query": "Which programming language do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 283,
+    "query": "Explain supervised learning in simple terms.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 284,
+    "query": "What is 15150 + 391?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 285,
+    "query": "What is 215 + 61?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 286,
+    "query": "What are the latest updates in RAG systems?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 287,
+    "query": "What are the recent developments in machine learning?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 288,
+    "query": "Can you clarify your request?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 289,
+    "query": "Calculate 7478 - 90.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 290,
+    "query": "Why is embeddings important?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 291,
+    "query": "Can you find the latest developments in large language models?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 292,
+    "query": "What topic do you want me to explain?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 293,
+    "query": "What is 2220 + 138?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 294,
+    "query": "Calculate 3039 divided by 134.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 295,
+    "query": "What are the advantages and disadvantages of reinforcement learning?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 296,
+    "query": "Which company are you asking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 297,
+    "query": "Explain LLMOps in simple terms.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 298,
+    "query": "Show me the current trends in AI agents?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 299,
+    "query": "What is 3665 + 20?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 300,
+    "query": "What kind of calculation do you need?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 301,
+    "query": "Calculate 7028 - 93.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 302,
+    "query": "How would you use MCP in a real-world project?",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 303,
+    "query": "What location are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 304,
+    "query": "What is 2760 + 131?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 305,
+    "query": "What is 9231 multiplied by 307?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 306,
+    "query": "Which programming language do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 307,
+    "query": "What is 2490 + 126?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 308,
+    "query": "Calculate 2499 divided by 141.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 309,
+    "query": "Explain attention mechanisms in simple terms.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 310,
+    "query": "Look up the latest developments in autonomous vehicles?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 311,
+    "query": "Can you find the recent developments in multimodal AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 312,
+    "query": "Calculate 7278 - 189.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 313,
+    "query": "Look up the recent news about robotics?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 314,
+    "query": "Look up the recent developments in AI hardware?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 315,
+    "query": "What are the advantages and disadvantages of MLOps?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 316,
+    "query": "What is 3935 + 25?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 317,
+    "query": "Compare vector databases with a traditional approach.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 318,
+    "query": "What item should I search for?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 319,
+    "query": "Compare vector databases with a traditional approach.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 320,
+    "query": "How would you use vector databases in a real-world project?",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 321,
+    "query": "What are the latest updates in RAG systems?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 322,
+    "query": "Look up the recent developments in AI hardware?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 323,
+    "query": "What is the latest developments in Google AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 324,
+    "query": "Find 50% of 4800.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 325,
+    "query": "What is the current trends in generative AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 326,
+    "query": "Give me a beginner-friendly explanation of supervised learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 327,
+    "query": "Which project are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 328,
+    "query": "What is 15420 + 379?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 329,
+    "query": "Which dataset are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 330,
+    "query": "Which application are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 331,
+    "query": "What is 9141 multiplied by 311?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 332,
+    "query": "What are the common mistakes when using deep learning?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 333,
+    "query": "Calculate 1003 - 221.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 334,
+    "query": "Find 20% of 875.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 335,
+    "query": "Calculate 7548 - 194.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 336,
+    "query": "What are the advantages and disadvantages of MLOps?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 337,
+    "query": "Which person do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 338,
+    "query": "Look up the recent developments in AI hardware?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 339,
+    "query": "Find 20% of 5200.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 340,
+    "query": "What are the advantages and disadvantages of MLOps?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 341,
+    "query": "Explain RAG in simple terms.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 342,
+    "query": "Can you find the latest developments in large language models?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 343,
+    "query": "What are the common mistakes when using reinforcement learning?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 344,
+    "query": "Can you clarify your request?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 345,
+    "query": "Why is AI agents important?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 346,
+    "query": "Give me a beginner-friendly explanation of RAG.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 347,
+    "query": "Which technology are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 348,
+    "query": "Find 20% of 875.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 349,
+    "query": "What item should I search for?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 350,
+    "query": "What are the common mistakes when using MLOps?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 351,
+    "query": "Calculate 4794 divided by 238.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 352,
+    "query": "Look up the recent news about robotics?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 353,
+    "query": "Give me a beginner-friendly explanation of LLMOps.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 354,
+    "query": "Calculate 4884 divided by 234.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 355,
+    "query": "Can you find the latest information about OpenAI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 356,
+    "query": "Which person do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 357,
+    "query": "What is 10695 multiplied by 122?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 358,
+    "query": "How would you use prompt engineering in a real-world project?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 359,
+    "query": "Could you provide more context?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 360,
+    "query": "What are the common mistakes when using tool calling?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 361,
+    "query": "What information should I look up?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 362,
+    "query": "Calculate 7728 - 186.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 363,
+    "query": "How would you use MCP in a real-world project?",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 364,
+    "query": "Can you clarify your request?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 365,
+    "query": "What are the latest updates in RAG systems?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 366,
+    "query": "Why is unsupervised learning important?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 367,
+    "query": "What is 10341 multiplied by 323?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 368,
+    "query": "Give me a beginner-friendly explanation of attention mechanisms.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 369,
+    "query": "What is the current developments in quantum computing?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 370,
+    "query": "What is the latest developments in Google AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 371,
+    "query": "Show me the latest Python releases?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 372,
+    "query": "What is 10071 multiplied by 318?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 373,
+    "query": "Calculate 8979 divided by 155.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 374,
+    "query": "Compare prompt engineering with a traditional approach.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 375,
+    "query": "Explain RAG in simple terms.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 376,
+    "query": "How would you use function calling in a real-world project?",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 377,
+    "query": "Which version do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 378,
+    "query": "Calculate 7153 - 45.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 379,
+    "query": "Show me the latest updates in cloud computing?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 380,
+    "query": "Which project are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 381,
+    "query": "Which person do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 382,
+    "query": "Show me the latest Python releases?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 383,
+    "query": "Look up the recent developments in Microsoft AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 384,
+    "query": "Can you clarify your request?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 385,
+    "query": "Compare neural networks with a traditional approach.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 386,
+    "query": "Compare function calling with a traditional approach.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 387,
+    "query": "What is the latest developments in Google AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 388,
+    "query": "Calculate 2769 divided by 129.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 389,
+    "query": "Which technology are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 390,
+    "query": "What is 9411 multiplied by 316?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 391,
+    "query": "Find 20% of 5200.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 392,
+    "query": "Compare prompt engineering with a traditional approach.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 393,
+    "query": "What is the latest developments in Google AI?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 394,
+    "query": "Can you clarify your request?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 395,
+    "query": "Compare MCP with a traditional approach.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 396,
+    "query": "Look up the recent news about robotics?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 397,
+    "query": "Which dataset are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 398,
+    "query": "Which company are you asking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 399,
+    "query": "What is 1321 multiplied by 88?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 400,
+    "query": "Compare prompt engineering with a traditional approach.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 401,
+    "query": "Calculate 7574 divided by 256.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 402,
+    "query": "Give me a beginner-friendly explanation of LLMOps.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 403,
+    "query": "Which company are you asking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 404,
+    "query": "What are the advantages and disadvantages of transformers?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 405,
+    "query": "What are the common mistakes when using MLOps?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 406,
+    "query": "What exactly would you like me to compare?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 407,
+    "query": "What is 10515 multiplied by 113?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 408,
+    "query": "How does embeddings work?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 409,
+    "query": "Show me the current trends in AI agents?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 410,
+    "query": "Which file should I use?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 411,
+    "query": "Explain LLMOps in simple terms.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 412,
+    "query": "What is 10161 multiplied by 331?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 413,
+    "query": "Show me the latest updates in cloud computing?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 414,
+    "query": "Which product are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 415,
+    "query": "Which product are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 416,
+    "query": "What exactly would you like me to compare?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 417,
+    "query": "Find 20% of 3750.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 418,
+    "query": "What is 3575 + 24?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 419,
+    "query": "What are the common mistakes when using tool calling?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 420,
+    "query": "What are the common mistakes when using reinforcement learning?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 421,
+    "query": "What topic do you want me to explain?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 422,
+    "query": "Show me the latest Python releases?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 423,
+    "query": "How does fine-tuning work?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 424,
+    "query": "Calculate 8789 divided by 118.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 425,
+    "query": "Show me the latest updates in cloud computing?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 426,
+    "query": "Which application are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 427,
+    "query": "Can you find the latest developments in deep learning?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 428,
+    "query": "What is 4025 + 21?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 429,
+    "query": "How would you use neural networks in a real-world project?",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 430,
+    "query": "What item should I search for?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 431,
+    "query": "What are the latest developments in artificial intelligence?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 432,
+    "query": "Could you provide more context?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 433,
+    "query": "How does fine-tuning work?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 434,
+    "query": "What are the recent developments in machine learning?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 435,
+    "query": "What is 395 + 53?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 436,
+    "query": "Which person do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 437,
+    "query": "Calculate 7484 divided by 260.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 438,
+    "query": "Which technology are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 439,
+    "query": "What is 2580 + 139?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 440,
+    "query": "Look up the recent developments in AI hardware?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 441,
+    "query": "What are the recent developments in NVIDIA AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 442,
+    "query": "What is 3755 + 33?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 443,
+    "query": "Calculate 7063 - 32.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 444,
+    "query": "What item should I search for?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 445,
+    "query": "What are the common mistakes when using tool calling?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 446,
+    "query": "Give me a beginner-friendly explanation of generative AI.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 447,
+    "query": "How does embeddings work?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 448,
+    "query": "Show me the latest Python releases?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 449,
+    "query": "Give me a beginner-friendly explanation of generative AI.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 450,
+    "query": "Find 20% of 5200.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 451,
+    "query": "Can you find the recent developments in multimodal AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 452,
+    "query": "Find 50% of 4320.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 453,
+    "query": "What is 3305 + 19?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 454,
+    "query": "Which project are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 455,
+    "query": "What are the recent developments in machine learning?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 456,
+    "query": "Show me the latest developments in AI coding tools?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 457,
+    "query": "What is 2266 multiplied by 375?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 458,
+    "query": "What is 9981 multiplied by 322?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 459,
+    "query": "Calculate 2523 - 127.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 460,
+    "query": "What are the latest developments in artificial intelligence?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 461,
+    "query": "Find 50% of 4320.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 462,
+    "query": "Which model do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 463,
+    "query": "What date are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 464,
+    "query": "How does fine-tuning work?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 465,
+    "query": "How would you use MCP in a real-world project?",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 466,
+    "query": "Which technology are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 467,
+    "query": "Explain attention mechanisms in simple terms.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 468,
+    "query": "Give me a beginner-friendly explanation of supervised learning.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 469,
+    "query": "What are the recent developments in machine learning?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 470,
+    "query": "Can you find the latest developments in deep learning?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 471,
+    "query": "What are the advantages and disadvantages of reinforcement learning?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 472,
+    "query": "Explain generative AI in simple terms.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 473,
+    "query": "Compare MCP with a traditional approach.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 474,
+    "query": "Can you clarify your request?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 475,
+    "query": "Can you clarify your request?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 476,
+    "query": "Which company are you asking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 477,
+    "query": "Calculate 4614 divided by 229.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 478,
+    "query": "Calculate 6703 - 48.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 479,
+    "query": "Which programming language do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 480,
+    "query": "What are the advantages and disadvantages of transformers?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 481,
+    "query": "What is 1501 multiplied by 80?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 482,
+    "query": "Show me the latest updates in cloud computing?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 483,
+    "query": "Can you find the latest information about OpenAI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 484,
+    "query": "Find 20% of 5200.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 485,
+    "query": "Show me the current trends in AI agents?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 486,
+    "query": "Why is unsupervised learning important?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 487,
+    "query": "Which dataset are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 488,
+    "query": "Calculate 8088 - 187.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 489,
+    "query": "What information should I look up?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 490,
+    "query": "How does embeddings work?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 491,
+    "query": "What are the recent developments in NVIDIA AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 492,
+    "query": "Show me the latest developments in AI coding tools?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 493,
+    "query": "Show me the latest developments in AI coding tools?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 494,
+    "query": "What is the latest developments in Google AI?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 495,
+    "query": "Look up the recent developments in Microsoft AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 496,
+    "query": "Look up the recent news about robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 497,
+    "query": "Which programming language do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 498,
+    "query": "What location are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 499,
+    "query": "What are the latest updates in RAG systems?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 500,
+    "query": "Which file should I use?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 501,
+    "query": "Calculate 5064 divided by 226.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 502,
+    "query": "Can you find the latest developments in large language models?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 503,
+    "query": "Which dataset are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 504,
+    "query": "Explain LLMOps in simple terms.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 505,
+    "query": "Calculate 7014 divided by 210.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 506,
+    "query": "Give me a beginner-friendly explanation of generative AI.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 507,
+    "query": "What are the recent developments in NVIDIA AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 508,
+    "query": "What are the common mistakes when using transformers?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 509,
+    "query": "What location are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 510,
+    "query": "Look up the recent news about robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 511,
+    "query": "Which person do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 512,
+    "query": "Find 50% of 780.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 513,
+    "query": "What are the recent developments in machine learning?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 514,
+    "query": "What are the latest developments in artificial intelligence?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 515,
+    "query": "Can you clarify your request?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 516,
+    "query": "Explain attention mechanisms in simple terms.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 517,
+    "query": "Show me the latest developments in AI coding tools?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 518,
+    "query": "Calculate 823 - 229.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 519,
+    "query": "Calculate 6523 - 39.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 520,
+    "query": "What are the advantages and disadvantages of reinforcement learning?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 521,
+    "query": "Which person do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 522,
+    "query": "How would you use prompt engineering in a real-world project?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 523,
+    "query": "Calculate 8799 divided by 146.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 524,
+    "query": "Find 50% of 4320.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 525,
+    "query": "Which technology are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 526,
+    "query": "How would you use vector databases in a real-world project?",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 527,
+    "query": "Calculate 8024 divided by 253.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 528,
+    "query": "Can you find the recent developments in multimodal AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 529,
+    "query": "Find 20% of 3750.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 530,
+    "query": "How does fine-tuning work?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 531,
+    "query": "What are the recent developments in NVIDIA AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 532,
+    "query": "Give me a beginner-friendly explanation of attention mechanisms.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 533,
+    "query": "What topic do you want me to explain?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 534,
+    "query": "Calculate 1208 - 84.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 535,
+    "query": "What are the recent developments in machine learning?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 536,
+    "query": "How does large language models work?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 537,
+    "query": "Calculate 7998 - 191.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 538,
+    "query": "How would you use prompt engineering in a real-world project?",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 539,
+    "query": "Which application are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 540,
+    "query": "Look up the latest developments in autonomous vehicles?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 541,
+    "query": "Which project are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 542,
+    "query": "What is the current trends in LLM inference?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 543,
+    "query": "What is 2130 + 125?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 544,
+    "query": "What are the recent developments in NVIDIA AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 545,
+    "query": "What is the current trends in generative AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 546,
+    "query": "What is 9531 multiplied by 325?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 547,
+    "query": "How would you use function calling in a real-world project?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 548,
+    "query": "Which technology are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 549,
+    "query": "Find 50% of 4320.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 550,
+    "query": "Show me the latest Python releases?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 551,
+    "query": "Show me the latest updates in cloud computing?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 552,
+    "query": "What is the latest developments in Google AI?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 553,
+    "query": "Find 50% of 4800.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 554,
+    "query": "What topic do you want me to explain?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 555,
+    "query": "How would you use prompt engineering in a real-world project?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 556,
+    "query": "Find 50% of 780.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 557,
+    "query": "What are the common mistakes when using transformers?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 558,
+    "query": "Show me the latest developments in AI coding tools?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 559,
+    "query": "What is 1215 + 31?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 560,
+    "query": "What are the advantages and disadvantages of tool calling?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 561,
+    "query": "What date are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 562,
+    "query": "Which application are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 563,
+    "query": "What are the recent developments in NVIDIA AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 564,
+    "query": "What are the latest developments in artificial intelligence?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 565,
+    "query": "What kind of calculation do you need?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 566,
+    "query": "What exactly would you like me to compare?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 567,
+    "query": "Show me the current trends in AI agents?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 568,
+    "query": "What is 15060 + 378?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 569,
+    "query": "What is the current trends in LLM inference?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 570,
+    "query": "Which version do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 571,
+    "query": "Calculate 1363 - 222.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 572,
+    "query": "Calculate 2589 divided by 137.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 573,
+    "query": "What are the recent developments in NVIDIA AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 574,
+    "query": "Look up the recent developments in AI hardware?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 575,
+    "query": "What kind of calculation do you need?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 576,
+    "query": "Which version do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 577,
+    "query": "Look up the recent developments in AI hardware?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 578,
+    "query": "How does AI agents work?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 579,
+    "query": "Which company are you asking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 580,
+    "query": "What kind of calculation do you need?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 581,
+    "query": "Calculate 1028 - 75.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 582,
+    "query": "Look up the latest developments in autonomous vehicles?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 583,
+    "query": "Calculate 7908 - 195.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 584,
+    "query": "Find 20% of 875.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 585,
+    "query": "What information should I look up?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 586,
+    "query": "What information should I look up?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 587,
+    "query": "Which model do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 588,
+    "query": "What topic do you want me to explain?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 589,
+    "query": "Compare MCP with a traditional approach.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 590,
+    "query": "Explain attention mechanisms in simple terms.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 591,
+    "query": "Which person do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 592,
+    "query": "Which technology are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 593,
+    "query": "Find 50% of 4320.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 594,
+    "query": "What are the latest updates in RAG systems?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 595,
+    "query": "Calculate 7243 - 41.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 596,
+    "query": "Compare neural networks with a traditional approach.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 597,
+    "query": "Can you find the latest developments in deep learning?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 598,
+    "query": "What is the current developments in quantum computing?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 599,
+    "query": "What are the common mistakes when using MLOps?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 600,
+    "query": "Calculate 8879 divided by 131.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 601,
+    "query": "What is 2670 + 135?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 602,
+    "query": "Which programming language do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 603,
+    "query": "Which product are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 604,
+    "query": "What is 1411 multiplied by 84?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 605,
+    "query": "Can you find the latest developments in deep learning?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 606,
+    "query": "Explain RAG in simple terms.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 607,
+    "query": "Can you find the latest developments in deep learning?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 608,
+    "query": "Can you find the latest developments in deep learning?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 609,
+    "query": "Which project are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 610,
+    "query": "Show me the latest updates in cloud computing?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 611,
+    "query": "What are the advantages and disadvantages of tool calling?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 612,
+    "query": "Look up the latest developments in autonomous vehicles?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 613,
+    "query": "Which file should I use?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 614,
+    "query": "How would you use MCP in a real-world project?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 615,
+    "query": "Calculate 7208 - 85.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 616,
+    "query": "Look up the recent developments in Microsoft AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 617,
+    "query": "Find 20% of 875.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 618,
+    "query": "Give me a beginner-friendly explanation of supervised learning.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 619,
+    "query": "What are the latest updates in RAG systems?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 620,
+    "query": "What information should I look up?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 621,
+    "query": "What are the recent developments in machine learning?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 622,
+    "query": "What are the latest updates in RAG systems?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 623,
+    "query": "What is 665 + 58?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 624,
+    "query": "Which programming language do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 625,
+    "query": "Which dataset are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 626,
+    "query": "Give me a beginner-friendly explanation of LLMOps.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 627,
+    "query": "What is 3215 + 23?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 628,
+    "query": "How would you use prompt engineering in a real-world project?",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 629,
+    "query": "Find 50% of 780.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 630,
+    "query": "What kind of calculation do you need?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 631,
+    "query": "Can you find the latest information about OpenAI?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 632,
+    "query": "Can you clarify your request?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 633,
+    "query": "Find 50% of 4320.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 634,
+    "query": "Show me the current trends in AI agents?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 635,
+    "query": "Show me the latest updates in cloud computing?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 636,
+    "query": "What date are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 637,
+    "query": "What information should I look up?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 638,
+    "query": "How does embeddings work?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 639,
+    "query": "Can you find the latest information about OpenAI?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 640,
+    "query": "Compare MCP with a traditional approach.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 641,
+    "query": "What is 1131 multiplied by 58?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 642,
+    "query": "What location are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 643,
+    "query": "What is 575 + 62?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 644,
+    "query": "Calculate 9249 divided by 160.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 645,
+    "query": "What is 15690 + 384?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 646,
+    "query": "Look up the recent developments in AI hardware?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 647,
+    "query": "Which model do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 648,
+    "query": "Which dataset are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 649,
+    "query": "What is the current trends in generative AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 650,
+    "query": "What are the common mistakes when using MLOps?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 651,
+    "query": "Explain LLMOps in simple terms.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 652,
+    "query": "Look up the recent developments in Microsoft AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 653,
+    "query": "What is 15870 + 376?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 654,
+    "query": "Calculate 7458 - 181.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 655,
+    "query": "Calculate 9159 divided by 147.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 656,
+    "query": "Which project are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 657,
+    "query": "Why is AI agents important?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 658,
+    "query": "Which technology are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 659,
+    "query": "What are the advantages and disadvantages of tool calling?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 660,
+    "query": "Why is large language models important?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 661,
+    "query": "What location are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 662,
+    "query": "Show me the current trends in AI agents?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 663,
+    "query": "Why is fine-tuning important?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 664,
+    "query": "What kind of calculation do you need?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 665,
+    "query": "What exactly would you like me to compare?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 666,
+    "query": "How would you use neural networks in a real-world project?",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 667,
+    "query": "Calculate 9519 divided by 148.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 668,
+    "query": "Can you find the recent developments in multimodal AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 669,
+    "query": "What is 125 + 48?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 670,
+    "query": "Can you find the latest developments in large language models?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 671,
+    "query": "What are the recent developments in machine learning?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 672,
+    "query": "What is the latest developments in Google AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 673,
+    "query": "Look up the recent news about robotics?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 674,
+    "query": "How would you use MCP in a real-world project?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 675,
+    "query": "Can you clarify your request?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 676,
+    "query": "Could you provide more context?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 677,
+    "query": "What are the latest updates in RAG systems?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 678,
+    "query": "Could you provide more context?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 679,
+    "query": "Give me a beginner-friendly explanation of RAG.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 680,
+    "query": "What are the advantages and disadvantages of deep learning?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 681,
+    "query": "Look up the recent news about robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 682,
+    "query": "Which project are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 683,
+    "query": "What topic do you want me to explain?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 684,
+    "query": "What is the current trends in LLM inference?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 685,
+    "query": "Which technology are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 686,
+    "query": "Can you find the latest developments in deep learning?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 687,
+    "query": "Show me the latest developments in AI coding tools?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 688,
+    "query": "Give me a beginner-friendly explanation of LLMOps.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 689,
+    "query": "What is 9501 multiplied by 312?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 690,
+    "query": "How does unsupervised learning work?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 691,
+    "query": "Explain supervised learning in simple terms.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 692,
+    "query": "Which product are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 693,
+    "query": "What date are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 694,
+    "query": "Explain RAG in simple terms.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 695,
+    "query": "Give me a beginner-friendly explanation of supervised learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 696,
+    "query": "Could you provide more context?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 697,
+    "query": "Look up the latest developments in autonomous vehicles?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 698,
+    "query": "Calculate 3063 - 137.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 699,
+    "query": "How would you use vector databases in a real-world project?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 700,
+    "query": "Can you find the recent developments in multimodal AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 701,
+    "query": "Look up the latest developments in autonomous vehicles?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 702,
+    "query": "What location are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 703,
+    "query": "What are the common mistakes when using reinforcement learning?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 704,
+    "query": "How would you use vector databases in a real-world project?",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 705,
+    "query": "What is 15780 + 380?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 706,
+    "query": "What item should I search for?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 707,
+    "query": "Could you provide more context?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 708,
+    "query": "Show me the latest Python releases?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 709,
+    "query": "What are the advantages and disadvantages of deep learning?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 710,
+    "query": "What is the current trends in generative AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 711,
+    "query": "Give me a beginner-friendly explanation of RAG.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 712,
+    "query": "Can you find the latest information about OpenAI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 713,
+    "query": "What are the advantages and disadvantages of deep learning?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 714,
+    "query": "What is the current developments in quantum computing?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 715,
+    "query": "Show me the latest updates in cloud computing?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 716,
+    "query": "Compare MCP with a traditional approach.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 717,
+    "query": "Which person do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 718,
+    "query": "Which product are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 719,
+    "query": "How would you use neural networks in a real-world project?",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 720,
+    "query": "Show me the latest Python releases?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 721,
+    "query": "What is 1996 multiplied by 387?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 722,
+    "query": "What are the common mistakes when using tool calling?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 723,
+    "query": "Why is AI agents important?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 724,
+    "query": "Calculate 6384 divided by 221.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 725,
+    "query": "Show me the latest developments in AI coding tools?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 726,
+    "query": "What kind of calculation do you need?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 727,
+    "query": "What are the common mistakes when using deep learning?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 728,
+    "query": "Show me the current trends in AI agents?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 729,
+    "query": "Can you find the latest developments in large language models?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 730,
+    "query": "Explain generative AI in simple terms.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 731,
+    "query": "Show me the latest developments in AI coding tools?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 732,
+    "query": "What item should I search for?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 733,
+    "query": "Calculate 6613 - 35.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 734,
+    "query": "What information should I look up?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 735,
+    "query": "Can you find the latest developments in deep learning?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 736,
+    "query": "What is the latest developments in Google AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 737,
+    "query": "What is 1581 multiplied by 55?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 738,
+    "query": "What are the advantages and disadvantages of deep learning?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 739,
+    "query": "Find 20% of 5200.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 740,
+    "query": "Which company are you asking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 741,
+    "query": "Calculate 9339 divided by 156.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 742,
+    "query": "Look up the latest developments in autonomous vehicles?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 743,
+    "query": "What is the current trends in LLM inference?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 744,
+    "query": "What information should I look up?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 745,
+    "query": "Find 20% of 5200.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 746,
+    "query": "What is 1671 multiplied by 51?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 747,
+    "query": "Can you find the latest developments in large language models?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 748,
+    "query": "Which company are you asking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 749,
+    "query": "Can you find the recent developments in multimodal AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 750,
+    "query": "What is 15330 + 383?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 751,
+    "query": "How would you use function calling in a real-world project?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 752,
+    "query": "Which project are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 753,
+    "query": "Calculate 3219 divided by 126.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 754,
+    "query": "Which product are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 755,
+    "query": "Explain supervised learning in simple terms.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 756,
+    "query": "What location are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 757,
+    "query": "Can you find the latest developments in large language models?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 758,
+    "query": "What are the latest developments in artificial intelligence?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 759,
+    "query": "Compare neural networks with a traditional approach.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 760,
+    "query": "Calculate 2949 divided by 138.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 761,
+    "query": "What is 1950 + 133?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 762,
+    "query": "Look up the recent news about robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 763,
+    "query": "Calculate 1273 - 226.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 764,
+    "query": "Calculate 7298 - 98.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 765,
+    "query": "Can you clarify your request?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 766,
+    "query": "What item should I search for?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 767,
+    "query": "What are the advantages and disadvantages of deep learning?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 768,
+    "query": "Which model do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 769,
+    "query": "What is the current developments in quantum computing?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 770,
+    "query": "Which application are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 771,
+    "query": "What is 855 + 30?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 772,
+    "query": "Compare prompt engineering with a traditional approach.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 773,
+    "query": "What exactly would you like me to compare?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 774,
+    "query": "Compare function calling with a traditional approach.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 775,
+    "query": "Which product are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 776,
+    "query": "Can you find the latest information about OpenAI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 777,
+    "query": "Explain LLMOps in simple terms.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 778,
+    "query": "What is the current developments in quantum computing?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 779,
+    "query": "What are the recent developments in machine learning?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 780,
+    "query": "What is 1051 multiplied by 83?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 781,
+    "query": "What information should I look up?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 782,
+    "query": "Which model do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 783,
+    "query": "Calculate 1183 - 230.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 784,
+    "query": "What are the recent developments in NVIDIA AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 785,
+    "query": "Can you find the latest developments in deep learning?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 786,
+    "query": "How does AI agents work?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 787,
+    "query": "Calculate 668 - 74.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 788,
+    "query": "What is the current trends in LLM inference?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 789,
+    "query": "What is 1906 multiplied by 391?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 790,
+    "query": "What are the advantages and disadvantages of MLOps?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 791,
+    "query": "Which file should I use?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 792,
+    "query": "Which version do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 793,
+    "query": "What are the common mistakes when using transformers?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 794,
+    "query": "Show me the latest Python releases?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 795,
+    "query": "Look up the recent developments in AI hardware?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 796,
+    "query": "Compare prompt engineering with a traditional approach.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 797,
+    "query": "Show me the latest updates in cloud computing?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 798,
+    "query": "Look up the latest developments in autonomous vehicles?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 799,
+    "query": "What are the common mistakes when using tool calling?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 800,
+    "query": "What is 1035 + 39?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 801,
+    "query": "Calculate 7104 divided by 223.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 802,
+    "query": "Give me a beginner-friendly explanation of supervised learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 803,
+    "query": "Calculate 8519 divided by 130.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 804,
+    "query": "Why is AI agents important?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 805,
+    "query": "Can you find the latest developments in large language models?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 806,
+    "query": "Calculate 2409 divided by 128.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 807,
+    "query": "What is 675 + 38?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 808,
+    "query": "Which person do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 809,
+    "query": "What information should I look up?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 810,
+    "query": "Explain generative AI in simple terms.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 811,
+    "query": "Find 20% of 875.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 812,
+    "query": "What is 10155 multiplied by 112?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 813,
+    "query": "Can you clarify your request?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 814,
+    "query": "What are the latest developments in artificial intelligence?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 815,
+    "query": "Look up the recent developments in AI hardware?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 816,
+    "query": "How would you use MCP in a real-world project?",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 817,
+    "query": "How does AI agents work?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 818,
+    "query": "What are the common mistakes when using transformers?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 819,
+    "query": "Calculate 6924 divided by 214.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 820,
+    "query": "Can you find the recent developments in multimodal AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 821,
+    "query": "How would you use neural networks in a real-world project?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 822,
+    "query": "What is 3845 + 29?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 823,
+    "query": "What are the advantages and disadvantages of tool calling?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 824,
+    "query": "Calculate 8114 divided by 266.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 825,
+    "query": "Calculate 5334 divided by 231.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 826,
+    "query": "Find 50% of 780.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 827,
+    "query": "Can you find the latest information about OpenAI?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 828,
+    "query": "Explain RAG in simple terms.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 829,
+    "query": "Find 50% of 4320.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 830,
+    "query": "What kind of calculation do you need?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 831,
+    "query": "What is 935 + 63?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 832,
+    "query": "What is 1401 multiplied by 46?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 833,
+    "query": "Calculate 7118 - 89.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 834,
+    "query": "What are the common mistakes when using tool calling?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 835,
+    "query": "Can you find the latest information about OpenAI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 836,
+    "query": "Look up the recent developments in Microsoft AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 837,
+    "query": "Give me a beginner-friendly explanation of generative AI.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 838,
+    "query": "What are the advantages and disadvantages of transformers?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 839,
+    "query": "Calculate 4524 divided by 233.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 840,
+    "query": "Which person do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 841,
+    "query": "What exactly would you like me to compare?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 842,
+    "query": "What location are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 843,
+    "query": "Compare vector databases with a traditional approach.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 844,
+    "query": "Show me the current trends in AI agents?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 845,
+    "query": "Explain RAG in simple terms.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 846,
+    "query": "Can you find the latest developments in deep learning?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 847,
+    "query": "What is the latest developments in Google AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 848,
+    "query": "Which project are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 849,
+    "query": "Calculate 3333 - 125.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 850,
+    "query": "What is the current trends in LLM inference?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 851,
+    "query": "What is 2250 + 287?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 852,
+    "query": "Which product are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 853,
+    "query": "Look up the recent developments in AI hardware?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 854,
+    "query": "Which dataset are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 855,
+    "query": "What date are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 856,
+    "query": "What is the current trends in LLM inference?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 857,
+    "query": "Which model do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 858,
+    "query": "What are the latest updates in RAG systems?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 859,
+    "query": "What is 765 + 34?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 860,
+    "query": "What is 1231 multiplied by 75?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 861,
+    "query": "Can you find the latest developments in deep learning?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 862,
+    "query": "Give me a beginner-friendly explanation of generative AI.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 863,
+    "query": "What item should I search for?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 864,
+    "query": "Find 50% of 780.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 865,
+    "query": "Find 20% of 3750.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 866,
+    "query": "How does AI agents work?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 867,
+    "query": "Explain RAG in simple terms.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 868,
+    "query": "Which file should I use?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 869,
+    "query": "Look up the recent developments in Microsoft AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 870,
+    "query": "Give me a beginner-friendly explanation of RAG.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 871,
+    "query": "What are the common mistakes when using MLOps?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 872,
+    "query": "Find 20% of 3750.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 873,
+    "query": "What are the recent developments in NVIDIA AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 874,
+    "query": "What kind of calculation do you need?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 875,
+    "query": "Find 20% of 875.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 876,
+    "query": "What topic do you want me to explain?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 877,
+    "query": "Why is unsupervised learning important?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 878,
+    "query": "Could you provide more context?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 879,
+    "query": "Which file should I use?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 880,
+    "query": "What is 10251 multiplied by 327?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 881,
+    "query": "Could you provide more context?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 882,
+    "query": "What are the recent developments in machine learning?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 883,
+    "query": "What is the current trends in LLM inference?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 884,
+    "query": "Look up the recent developments in AI hardware?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 885,
+    "query": "How does unsupervised learning work?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 886,
+    "query": "Which programming language do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 887,
+    "query": "Calculate 8889 divided by 159.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 888,
+    "query": "Compare neural networks with a traditional approach.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 889,
+    "query": "What is 1620 + 281?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 890,
+    "query": "Explain LLMOps in simple terms.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 891,
+    "query": "Which file should I use?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 892,
+    "query": "What is 1681 multiplied by 89?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 893,
+    "query": "What is the current trends in generative AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 894,
+    "query": "What is 1816 multiplied by 378?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 895,
+    "query": "What is the current developments in quantum computing?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 896,
+    "query": "What is 845 + 50?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 897,
+    "query": "Which version do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 898,
+    "query": "What are the advantages and disadvantages of reinforcement learning?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 899,
+    "query": "Find 50% of 780.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 900,
+    "query": "How does AI agents work?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 901,
+    "query": "What is 1710 + 277?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 902,
+    "query": "What is 2070 + 278?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 903,
+    "query": "What are the common mistakes when using reinforcement learning?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 904,
+    "query": "What is 10245 multiplied by 125?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 905,
+    "query": "What are the latest developments in artificial intelligence?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 906,
+    "query": "Which technology are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 907,
+    "query": "Which dataset are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 908,
+    "query": "What is the current trends in generative AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 909,
+    "query": "How does unsupervised learning work?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 910,
+    "query": "Which file should I use?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 911,
+    "query": "What is the latest developments in Google AI?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 912,
+    "query": "What is the current trends in LLM inference?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 913,
+    "query": "Which product are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 914,
+    "query": "Calculate 6474 divided by 217.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 915,
+    "query": "Can you find the latest developments in large language models?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 916,
+    "query": "Which file should I use?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 917,
+    "query": "Which file should I use?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 918,
+    "query": "What are the recent developments in machine learning?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 919,
+    "query": "How does unsupervised learning work?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 920,
+    "query": "What is the current developments in quantum computing?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 921,
+    "query": "Find 50% of 4800.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 922,
+    "query": "What is 1591 multiplied by 76?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 923,
+    "query": "What is the current trends in generative AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 924,
+    "query": "Which application are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 925,
+    "query": "Calculate 4974 divided by 230.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 926,
+    "query": "What is the current trends in LLM inference?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 927,
+    "query": "What item should I search for?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 928,
+    "query": "Why is large language models important?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 929,
+    "query": "Which company are you asking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 930,
+    "query": "Which programming language do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 931,
+    "query": "Give me a beginner-friendly explanation of LLMOps.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 932,
+    "query": "How does unsupervised learning work?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 933,
+    "query": "What kind of calculation do you need?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 934,
+    "query": "Can you clarify your request?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 935,
+    "query": "What are the recent developments in NVIDIA AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 936,
+    "query": "Which file should I use?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 937,
+    "query": "Compare prompt engineering with a traditional approach.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 938,
+    "query": "Calculate 1543 - 231.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 939,
+    "query": "Show me the latest developments in AI coding tools?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 940,
+    "query": "What is 1456 multiplied by 377?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 941,
+    "query": "What is the latest developments in Google AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 942,
+    "query": "Calculate 7754 divided by 265.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 943,
+    "query": "What is 305 + 57?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 944,
+    "query": "What exactly would you like me to compare?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 945,
+    "query": "What are the latest updates in RAG systems?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 946,
+    "query": "Why is embeddings important?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 947,
+    "query": "Calculate 5154 divided by 239.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 948,
+    "query": "Look up the latest developments in autonomous vehicles?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 949,
+    "query": "Which application are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 950,
+    "query": "Which version do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 951,
+    "query": "What is 15510 + 375?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 952,
+    "query": "What is 2176 multiplied by 379?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 953,
+    "query": "Why is AI agents important?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 954,
+    "query": "What are the advantages and disadvantages of reinforcement learning?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 955,
+    "query": "What date are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 956,
+    "query": "What is 3485 + 28?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 957,
+    "query": "What is 585 + 42?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 958,
+    "query": "Explain generative AI in simple terms.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 959,
+    "query": "What is the current developments in quantum computing?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 960,
+    "query": "What are the advantages and disadvantages of MLOps?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 961,
+    "query": "Which application are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 962,
+    "query": "What date are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 963,
+    "query": "What kind of calculation do you need?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 964,
+    "query": "Give me a beginner-friendly explanation of generative AI.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 965,
+    "query": "Which company are you asking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 966,
+    "query": "What are the advantages and disadvantages of MLOps?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 967,
+    "query": "What is the current developments in quantum computing?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 968,
+    "query": "What is 1221 multiplied by 54?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 969,
+    "query": "What location are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 970,
+    "query": "What are the common mistakes when using deep learning?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 971,
+    "query": "What kind of calculation do you need?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 972,
+    "query": "What is the current developments in quantum computing?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 973,
+    "query": "Which product are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 974,
+    "query": "What is 9681 multiplied by 304?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 975,
+    "query": "What kind of calculation do you need?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 976,
+    "query": "Calculate 9069 divided by 151.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 977,
+    "query": "Show me the latest developments in AI coding tools?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 978,
+    "query": "Show me the current trends in AI agents?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 979,
+    "query": "What item should I search for?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 980,
+    "query": "Calculate 7388 - 94.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 981,
+    "query": "Find 20% of 3750.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 982,
+    "query": "Calculate 2793 - 132.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 983,
+    "query": "Compare prompt engineering with a traditional approach.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 984,
+    "query": "What are the advantages and disadvantages of tool calling?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 985,
+    "query": "Look up the recent developments in Microsoft AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 986,
+    "query": "How does embeddings work?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 987,
+    "query": "Look up the latest developments in autonomous vehicles?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 988,
+    "query": "What is 1636 multiplied by 386?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 989,
+    "query": "What is 1800 + 290?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 990,
+    "query": "Why is fine-tuning important?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 991,
+    "query": "Why is AI agents important?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 992,
+    "query": "What date are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 993,
+    "query": "What is 2040 + 129?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 994,
+    "query": "Compare vector databases with a traditional approach.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 995,
+    "query": "Give me a beginner-friendly explanation of attention mechanisms.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 996,
+    "query": "What is the current trends in LLM inference?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 997,
+    "query": "What are the latest developments in artificial intelligence?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 998,
+    "query": "What location are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 999,
+    "query": "Look up the recent news about robotics?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1000,
+    "query": "Can you find the latest developments in large language models?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1001,
+    "query": "Compare neural networks with a traditional approach.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1002,
+    "query": "Find 50% of 780.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1003,
+    "query": "What kind of calculation do you need?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1004,
+    "query": "Find 20% of 3750.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1005,
+    "query": "Can you find the latest developments in deep learning?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1006,
+    "query": "Compare vector databases with a traditional approach.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1007,
+    "query": "Which model do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1008,
+    "query": "What are the advantages and disadvantages of transformers?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1009,
+    "query": "Calculate 5244 divided by 235.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1010,
+    "query": "Show me the latest updates in cloud computing?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1011,
+    "query": "What are the latest updates in RAG systems?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1012,
+    "query": "Show me the latest updates in cloud computing?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1013,
+    "query": "What item should I search for?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1014,
+    "query": "What kind of calculation do you need?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1015,
+    "query": "What information should I look up?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1016,
+    "query": "Which application are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1017,
+    "query": "Which file should I use?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1018,
+    "query": "Find 50% of 780.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1019,
+    "query": "Look up the recent developments in AI hardware?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1020,
+    "query": "Why is embeddings important?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1021,
+    "query": "Which model do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1022,
+    "query": "Calculate 3129 divided by 130.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1023,
+    "query": "Can you find the latest information about OpenAI?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1024,
+    "query": "Which model do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1025,
+    "query": "Give me a beginner-friendly explanation of generative AI.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1026,
+    "query": "Find 20% of 875.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1027,
+    "query": "Calculate 7664 divided by 252.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1028,
+    "query": "What is the latest developments in Google AI?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1029,
+    "query": "What is 485 + 49?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1030,
+    "query": "What is 2310 + 134?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1031,
+    "query": "Find 20% of 3750.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1032,
+    "query": "Which application are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1033,
+    "query": "Can you find the recent developments in multimodal AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1034,
+    "query": "Calculate 8249 divided by 125.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1035,
+    "query": "Give me a beginner-friendly explanation of supervised learning.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1036,
+    "query": "Calculate 6793 - 44.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1037,
+    "query": "What are the latest developments in artificial intelligence?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1038,
+    "query": "Look up the recent developments in Microsoft AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1039,
+    "query": "What is 9861 multiplied by 313?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1040,
+    "query": "Which version do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1041,
+    "query": "How does large language models work?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1042,
+    "query": "Give me a beginner-friendly explanation of attention mechanisms.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1043,
+    "query": "Which version do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1044,
+    "query": "How would you use function calling in a real-world project?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1045,
+    "query": "Can you find the recent developments in multimodal AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1046,
+    "query": "What is the current developments in quantum computing?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1047,
+    "query": "Compare vector databases with a traditional approach.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1048,
+    "query": "What exactly would you like me to compare?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1049,
+    "query": "What is the current trends in LLM inference?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1050,
+    "query": "Which technology are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1051,
+    "query": "What is 10785 multiplied by 118?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1052,
+    "query": "What is 1761 multiplied by 47?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1053,
+    "query": "Calculate 2883 - 128.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1054,
+    "query": "Which dataset are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1055,
+    "query": "What is 2400 + 130?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1056,
+    "query": "Which dataset are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1057,
+    "query": "What is the current developments in quantum computing?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1058,
+    "query": "Calculate 6654 divided by 226.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1059,
+    "query": "What are the latest updates in RAG systems?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1060,
+    "query": "Why is AI agents important?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1061,
+    "query": "What are the common mistakes when using transformers?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1062,
+    "query": "Find 50% of 4320.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1063,
+    "query": "Find 50% of 780.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1064,
+    "query": "Which product are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1065,
+    "query": "What are the common mistakes when using transformers?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1066,
+    "query": "Calculate 733 - 216.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1067,
+    "query": "What are the latest updates in RAG systems?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1068,
+    "query": "Why is embeddings important?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1069,
+    "query": "Which dataset are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1070,
+    "query": "Which person do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1071,
+    "query": "Which technology are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1072,
+    "query": "What are the advantages and disadvantages of reinforcement learning?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1073,
+    "query": "What is 9771 multiplied by 317?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1074,
+    "query": "Could you provide more context?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1075,
+    "query": "What are the recent developments in NVIDIA AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1076,
+    "query": "What location are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1077,
+    "query": "Show me the latest developments in AI coding tools?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1078,
+    "query": "Calculate 578 - 78.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1079,
+    "query": "Which model do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1080,
+    "query": "What is the current trends in generative AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1081,
+    "query": "Compare MCP with a traditional approach.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1082,
+    "query": "How does fine-tuning work?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1083,
+    "query": "Could you provide more context?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1084,
+    "query": "What information should I look up?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1085,
+    "query": "Which dataset are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1086,
+    "query": "Find 20% of 5200.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1087,
+    "query": "Calculate 8709 divided by 150.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1088,
+    "query": "Show me the latest Python releases?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1089,
+    "query": "What item should I search for?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1090,
+    "query": "Which application are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1091,
+    "query": "Why is fine-tuning important?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1092,
+    "query": "Give me a beginner-friendly explanation of LLMOps.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1093,
+    "query": "What is 1890 + 286?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1094,
+    "query": "What exactly would you like me to compare?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1095,
+    "query": "Look up the recent developments in Microsoft AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1096,
+    "query": "What is the current developments in quantum computing?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1097,
+    "query": "Find 20% of 3750.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1098,
+    "query": "Calculate 848 - 83.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1099,
+    "query": "Calculate 1118 - 88.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1100,
+    "query": "What exactly would you like me to compare?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1101,
+    "query": "What item should I search for?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1102,
+    "query": "Calculate 8969 divided by 127.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1103,
+    "query": "Which project are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1104,
+    "query": "Why is fine-tuning important?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1105,
+    "query": "How does large language models work?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1106,
+    "query": "Why is large language models important?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1107,
+    "query": "What is the current trends in LLM inference?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1108,
+    "query": "What item should I search for?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1109,
+    "query": "What are the recent developments in NVIDIA AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1110,
+    "query": "What topic do you want me to explain?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1111,
+    "query": "Look up the recent news about robotics?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1112,
+    "query": "What is 10875 multiplied by 114?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1113,
+    "query": "Could you provide more context?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1114,
+    "query": "Compare MCP with a traditional approach.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1115,
+    "query": "Which company are you asking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1116,
+    "query": "What are the recent developments in machine learning?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1117,
+    "query": "Give me a beginner-friendly explanation of attention mechanisms.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1118,
+    "query": "Look up the latest developments in autonomous vehicles?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1119,
+    "query": "What is 945 + 43?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1120,
+    "query": "What is the latest developments in Google AI?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1121,
+    "query": "Why is fine-tuning important?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1122,
+    "query": "How would you use vector databases in a real-world project?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1123,
+    "query": "Which model do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1124,
+    "query": "Show me the current trends in AI agents?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1125,
+    "query": "Find 20% of 5200.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1126,
+    "query": "Explain attention mechanisms in simple terms.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1127,
+    "query": "Show me the current trends in AI agents?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1128,
+    "query": "Look up the latest developments in autonomous vehicles?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1129,
+    "query": "How does large language models work?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1130,
+    "query": "Which project are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1131,
+    "query": "Show me the latest Python releases?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1132,
+    "query": "Which programming language do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1133,
+    "query": "Which technology are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1134,
+    "query": "What are the latest updates in RAG systems?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1135,
+    "query": "Calculate 7638 - 190.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1136,
+    "query": "Can you find the latest information about OpenAI?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1137,
+    "query": "Show me the current trends in AI agents?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1138,
+    "query": "What are the common mistakes when using MLOps?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1139,
+    "query": "How would you use function calling in a real-world project?",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1140,
+    "query": "What is the current developments in quantum computing?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1141,
+    "query": "What are the advantages and disadvantages of MLOps?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1142,
+    "query": "What date are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1143,
+    "query": "Can you clarify your request?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1144,
+    "query": "What location are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1145,
+    "query": "Calculate 7818 - 182.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1146,
+    "query": "What location are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1147,
+    "query": "Calculate 8609 divided by 126.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1148,
+    "query": "Look up the latest developments in autonomous vehicles?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1149,
+    "query": "Can you find the latest information about OpenAI?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1150,
+    "query": "Calculate 2679 divided by 133.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1151,
+    "query": "What is 10425 multiplied by 117?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1152,
+    "query": "What is the current developments in quantum computing?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1153,
+    "query": "Give me a beginner-friendly explanation of RAG.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1154,
+    "query": "Explain RAG in simple terms.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1155,
+    "query": "What exactly would you like me to compare?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1156,
+    "query": "Calculate 6883 - 40.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1157,
+    "query": "What are the common mistakes when using deep learning?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1158,
+    "query": "What is 1305 + 27?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1159,
+    "query": "Which application are you talking about?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1160,
+    "query": "Which product are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1161,
+    "query": "Calculate 6564 divided by 213.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1162,
+    "query": "Can you find the latest developments in large language models?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1163,
+    "query": "Explain attention mechanisms in simple terms.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1164,
+    "query": "What are the common mistakes when using deep learning?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1165,
+    "query": "Calculate 7844 divided by 261.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1166,
+    "query": "Compare function calling with a traditional approach.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1167,
+    "query": "Find 50% of 780.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1168,
+    "query": "Which technology are you referring to?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1169,
+    "query": "How does AI agents work?",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1170,
+    "query": "What are the latest developments in artificial intelligence?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1171,
+    "query": "What is the current trends in LLM inference?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1172,
+    "query": "Which programming language do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1173,
+    "query": "Explain generative AI in simple terms.",
+    "actions": [
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1174,
+    "query": "How does embeddings work?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1175,
+    "query": "Can you find the latest information about OpenAI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1176,
+    "query": "Calculate 8159 divided by 129.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1177,
+    "query": "Show me the current trends in AI agents?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1178,
+    "query": "Could you provide more context?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1179,
+    "query": "Can you find the recent developments in multimodal AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1180,
+    "query": "What are the advantages and disadvantages of tool calling?",
+    "actions": [
+      "llm",
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1181,
+    "query": "What information should I look up?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1182,
+    "query": "Look up the recent developments in Microsoft AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1183,
+    "query": "Which model do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1184,
+    "query": "Find 20% of 5200.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1185,
+    "query": "What topic do you want me to explain?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1186,
+    "query": "Can you find the latest developments in deep learning?",
+    "actions": [
+      "search",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1187,
+    "query": "Look up the recent developments in Microsoft AI?",
+    "actions": [
+      "search",
+      "finish"
+    ]
+  },
+  {
+    "id": 1188,
+    "query": "Calculate 6973 - 36.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1189,
+    "query": "Calculate 913 - 225.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1190,
+    "query": "What is 3395 + 32?",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1191,
+    "query": "Explain attention mechanisms in simple terms.",
+    "actions": [
+      "llm",
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1192,
+    "query": "Calculate 6834 divided by 218.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1193,
+    "query": "Which programming language do you mean?",
+    "actions": [
+      "ask_user",
+      "finish"
+    ]
+  },
+  {
+    "id": 1194,
+    "query": "Find 50% of 4800.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1195,
+    "query": "What is 1395 + 40?",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1196,
+    "query": "Look up the recent developments in AI hardware?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1197,
+    "query": "Can you find the latest developments in large language models?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1198,
+    "query": "What is the current trends in generative AI?",
+    "actions": [
+      "search",
+      "llm",
+      "finish"
+    ]
+  },
+  {
+    "id": 1199,
+    "query": "Calculate 2613 - 123.",
+    "actions": [
+      "calculator",
+      "finish"
+    ]
+  },
+  {
+    "id": 1200,
+    "query": "Calculate 7934 divided by 257.",
+    "actions": [
+      "calculator",
+      "llm",
+      "finish"
+    ]
+  }
+]

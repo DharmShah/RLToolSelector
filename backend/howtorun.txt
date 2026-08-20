@@ -1,0 +1,6 @@
+backend
+    .\venv\Scripts\activate
+    uvicorn app:app --reload  
+frontend
+    npm install
+    npm run dev
